@@ -1,0 +1,35 @@
+name: Build official.json
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - '**/metadata.json'
+      - 'build-official.sh'
+      - '.github/workflows/build-official.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build official.json
+        run: bash build-official.sh
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet -- official.json; then
+            echo "official.json is already up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add official.json
+          git commit -m "chore: regenerate official.json"
+          git push
