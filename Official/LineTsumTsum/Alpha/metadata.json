@@ -2,8 +2,8 @@
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum Script - ALPHA",
   "Version": "0.1",
-  "Date": "2025-08-23 19:22:34",
-  "Hash": "b76aa9fa2fbb722b8dcc6365eaae097968099d3490415434eac397ae91092700",
-  "File": "index.zip",
-  "Message": "*Changes* 1. New Tsum! _USE WITH CAUTION_"
+  "Date": "2026-08-24 02:58:15",
+  "Hash": "4e91e4683ffea7b495fb8798efa85046f5e1274d14483d78f0800e71bda2182d",
+  "File": "TsumTsum-Alpha-0.1.zip",
+  "Message": "**Changes**\n1. Longer chains -- new \"Link reach\" setting (they were capped at 3-4)\n2. New skill: Formal Suit Beast, played to fill both gauges evenly\n3. Cpt. Lightyear now has 120fps timings\n4. \"Clear Bubbles\" is now a three-way \"Bubble Strategy\"\n5. Settings changes apply mid-run, without reloading the script\n6. Fever time is detected, and round stats record the in-game coins\n\n"
 }
