@@ -2,8 +2,8 @@
 #
 # Regenerates official.json by scanning every metadata.json under this
 # repo and copying its contents into the "Scripts" array. Each entry's
-# "File" field is rewritten from a path relative to its own metadata.json
-# into a path relative to official.json.
+# "File" field is rewritten into the raw GitHub download URL for that
+# file, derived from the repo's own "origin" remote and current branch.
 #
 # All metadata.json files are read once into memory, the array is built
 # up there, and official.json is (re)written once at the end.
@@ -21,6 +21,43 @@ if ! command -v jq >/dev/null 2>&1; then
   echo "Install it, e.g. 'brew install jq' (macOS) or 'apt install jq' (Linux)." >&2
   exit 1
 fi
+
+remote_url="$(git -C "$REPO_ROOT" config --get remote.origin.url || true)"
+if [ -z "$remote_url" ]; then
+  echo "Error: could not read the 'origin' remote URL from git." >&2
+  exit 1
+fi
+
+# Normalizes any of the common remote URL shapes down to "owner/repo":
+#   git@github.com:owner/repo.git
+#   ssh://git@github.com/owner/repo.git
+#   https://github.com/owner/repo.git
+owner_repo="$(printf '%s' "$remote_url" \
+  | sed -E 's#^git@([^:]+):#https://\1/#' \
+  | sed -E 's#^ssh://git@#https://#' \
+  | sed -E 's#\.git/?$##' \
+  | sed -E 's#^https?://[^/]+/##')"
+
+branch="$(git -C "$REPO_ROOT" branch --show-current 2>/dev/null || true)"
+[ -z "$branch" ] && branch="${GITHUB_REF_NAME:-}"
+if [ -z "$branch" ]; then
+  echo "Error: could not determine the current git branch (detached HEAD?)." >&2
+  echo "Check out a branch, or set GITHUB_REF_NAME." >&2
+  exit 1
+fi
+
+# Percent-encodes each "/"-separated path segment (so spaces etc. survive
+# as a URL) without encoding the "/" separators themselves.
+url_encode_path() {
+  local path="$1" IFS='/' seg enc out=""
+  local -a segs
+  segs=($path)
+  for seg in "${segs[@]}"; do
+    enc="$(printf '%s' "$seg" | jq -Rr @uri)"
+    out="${out:+$out/}$enc"
+  done
+  printf '%s' "$out"
+}
 
 # Collapses "." and ".." segments in a slash-separated path. Pure bash
 # (no external calls, no bash-4-only features) so it also runs under the
@@ -60,13 +97,15 @@ while IFS= read -r meta; do
   original_file="$(printf '%s' "$content" | jq -r '.File')"
 
   if [ "$meta_dir" = "." ]; then
-    new_file="$original_file"
+    rel_file="$original_file"
   else
-    new_file="$(normalize_path "$meta_dir/$original_file")"
+    rel_file="$(normalize_path "$meta_dir/$original_file")"
   fi
 
-  updated="$(printf '%s' "$content" | jq -c --arg f "$new_file" '.File = $f')"
-  entries+=("$updated")
+  raw_url="https://github.com/$owner_repo/raw/$branch/$(url_encode_path "$rel_file")"
+
+  entry="$(printf '%s' "$content" | jq -c --arg f "$raw_url" '.File = $f')"
+  entries+=("$entry")
 done < <(find "$REPO_ROOT" -type d -name .git -prune -o -type f -name 'metadata.json' -print | sort)
 
 name="Official GAP"
