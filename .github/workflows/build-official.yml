@@ -9,27 +9,44 @@ on:
       - '.github/workflows/build-official.yml'
   workflow_dispatch:
 
+# official.json is never committed (see .gitignore) - it is generated here
+# and published to GitHub Pages instead.
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deploys race; queue them, but don't cancel a running one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
       - name: Build official.json
         run: bash build-official.sh
 
-      - name: Commit changes
+      - name: Stage site
         run: |
-          if git diff --quiet -- official.json; then
-            echo "official.json is already up to date"
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add official.json
-          git commit -m "chore: regenerate official.json"
-          git push
+          mkdir -p _site
+          cp official.json _site/official.json
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
