@@ -3,7 +3,7 @@
 What shipped in each release, newest first. 
 _USE WITH CAUTION_
 
-## 0.2 - 2026-08-25
+## 0.2 - 2026-08-26
 
 - Longer chains, with a new "Link reach" setting
 - New skill: Formal Suit Beast
@@ -14,4 +14,6 @@ _USE WITH CAUTION_
 - Auto Send Hearts now sweeps your whole ranking
 - Rank-up and record panels no longer hide your score
 - Round stats now record the tsum played and the coins earned
+- Round stats go in a separate file for each day
 - The floating bar names the tsum being played
+- Round stats can be shared if you switch it on in the app, never double-counted
