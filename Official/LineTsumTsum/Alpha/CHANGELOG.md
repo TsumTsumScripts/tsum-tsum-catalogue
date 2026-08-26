@@ -11,9 +11,9 @@ _USE WITH CAUTION_
 - "Clear Bubbles" is now a three-way "Bubble Strategy"
 - Settings changes now apply mid-run
 - Settings now shows what will run, and when
+- New "Share settings": copy your setup as a code, or paste someone else's
 - Auto Send Hearts now sweeps your whole ranking
 - Rank-up and record panels no longer hide your score
-- Round stats now record the tsum played and the coins earned
-- Round stats go in a separate file for each day
+- New "Record round stats": every round you play is logged to a spreadsheet
+- Round stats name the tsum played, split by day, and can be shared from the app
 - The floating bar names the tsum being played
-- Round stats can be shared if you switch it on in the app, never double-counted
