@@ -3,6 +3,12 @@
 What shipped in each release, newest first. 
 _USE WITH CAUTION_
 
+## 0.3 - 2026-08-28
+
+- Round stats now record the medals a round earned
+- A round that finishes slowly no longer loses its score in the stats file
+- "URL to Tsum Monitor" has been removed
+
 ## 0.2 - 2026-08-26
 
 - Longer chains, with a new "Link reach" setting
