@@ -5,5 +5,19 @@
   "Date": "2026-08-26 09:34:55",
   "Hash": "67c19b671f501f8a1f67df71d72949e9a627b8f12bee748ad91c58c86bd304d5",
   "File": "TsumTsum-Alpha-0.2.zip",
-  "Message": "**Changes**\n1. Longer chains, with a new \"Link reach\" setting\n2. New skill: Formal Suit Beast\n3. Better timing for Cpt. Lightyear\n4. \"Clear Bubbles\" is now a three-way \"Bubble Strategy\"\n5. Settings changes now apply mid-run\n6. Settings now shows what will run, and when\n7. New \"Share settings\": copy your setup as a code, or paste someone else's\n8. Auto Send Hearts now sweeps your whole ranking\n9. Rank-up and record panels no longer hide your score\n10. New \"Record round stats\": every round you play is logged to a spreadsheet\n11. Round stats name the tsum played, split by day, and can be shared from the app\n12. The floating bar names the tsum being played\n\n_USE WITH CAUTION_"
+  "Message": "**Changes**\n1. Longer chains, with a new \"Link reach\" setting\n2. New skill: Formal Suit Beast\n3. Better timing for Cpt. Lightyear\n4. \"Clear Bubbles\" is now a three-way \"Bubble Strategy\"\n5. Settings changes now apply mid-run\n6. Settings now shows what will run, and when\n7. New \"Share settings\": copy your setup as a code, or paste someone else's\n8. Auto Send Hearts now sweeps your whole ranking\n9. Rank-up and record panels no longer hide your score\n10. New \"Record round stats\": every round you play is logged to a spreadsheet\n11. Round stats name the tsum played, split by day, and can be shared from the app\n12. The floating bar names the tsum being played\n\n_USE WITH CAUTION_",
+  "Versions": [
+    {
+      "Version": "0.2",
+      "Date": "2026-08-26 09:34:55",
+      "Hash": "67c19b671f501f8a1f67df71d72949e9a627b8f12bee748ad91c58c86bd304d5",
+      "File": "TsumTsum-Alpha-0.2.zip"
+    },
+    {
+      "Version": "0.1",
+      "Date": "2026-08-24 02:58:15",
+      "Hash": "4e91e4683ffea7b495fb8798efa85046f5e1274d14483d78f0800e71bda2182d",
+      "File": "TsumTsum-Alpha-0.1.zip"
+    }
+  ]
 }

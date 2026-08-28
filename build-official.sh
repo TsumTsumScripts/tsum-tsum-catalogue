@@ -2,8 +2,10 @@
 #
 # Regenerates official.json by scanning every metadata.json under this
 # repo and copying its contents into the "Scripts" array. Each entry's
-# "File" field is rewritten into the raw GitHub download URL for that
-# file, derived from the repo's own "origin" remote and current branch.
+# "File" field -- and every "File" inside its optional "Versions" list of
+# still-installable older builds -- is rewritten into the raw GitHub
+# download URL for that file, derived from the repo's own "origin" remote
+# and current branch.
 #
 # All metadata.json files are read once into memory, the array is built
 # up there, and official.json is (re)written once at the end.
@@ -87,6 +89,19 @@ normalize_path() {
   printf '%s' "${result#/}"
 }
 
+# The download URL for a path a metadata.json names, resolved relative to the
+# directory that metadata.json sits in. Used for the entry's own "File" and for
+# every older build listed in "Versions".
+raw_url_for() {
+  local meta_dir="$1" file="$2" rel
+  if [ "$meta_dir" = "." ]; then
+    rel="$file"
+  else
+    rel="$(normalize_path "$meta_dir/$file")"
+  fi
+  printf 'https://github.com/%s/raw/%s/%s' "$owner_repo" "$branch" "$(url_encode_path "$rel")"
+}
+
 entries=()
 while IFS= read -r meta; do
   [ -z "$meta" ] && continue
@@ -94,17 +109,34 @@ while IFS= read -r meta; do
   meta_dir="$(dirname "$rel_meta")"
 
   content="$(cat "$meta")"
-  original_file="$(printf '%s' "$content" | jq -r '.File')"
+  raw_url="$(raw_url_for "$meta_dir" "$(printf '%s' "$content" | jq -r '.File')")"
 
-  if [ "$meta_dir" = "." ]; then
-    rel_file="$original_file"
+  # "Versions" lists the builds still installable, newest first. Each gets the
+  # same rewrite as the entry's own File, in the same order, so the app can
+  # download an older version by URL exactly as it does the newest.
+  #
+  # `tr -d '\r'` because jq writes CRLF on Windows, and unlike command
+  # substitution a read loop keeps that CR -- which url_encode_path then
+  # faithfully turns into a %0D on the end of every download URL.
+  version_urls=()
+  while IFS= read -r version_file; do
+    [ -z "$version_file" ] && continue
+    version_urls+=("$(raw_url_for "$meta_dir" "$version_file")")
+  done < <(printf '%s' "$content" | jq -r '.Versions // [] | .[] | .File' | tr -d '\r')
+
+  if [ "${#version_urls[@]}" -eq 0 ]; then
+    urls_json='[]'
   else
-    rel_file="$(normalize_path "$meta_dir/$original_file")"
+    urls_json="$(printf '%s\n' "${version_urls[@]}" | jq -R . | jq -s -c .)"
   fi
 
-  raw_url="https://github.com/$owner_repo/raw/$branch/$(url_encode_path "$rel_file")"
-
-  entry="$(printf '%s' "$content" | jq -c --arg f "$raw_url" '.File = $f')"
+  # An entry with no history keeps no empty "Versions" key: a catalogue that
+  # predates histories has to stay byte-identical to what it produced before.
+  entry="$(printf '%s' "$content" | jq -c --arg f "$raw_url" --argjson vs "$urls_json" '
+    .File = $f
+    | .Versions = ((.Versions // []) | to_entries | map(.value + {File: $vs[.key]}))
+    | if (.Versions | length) == 0 then del(.Versions) else . end
+  ')"
   entries+=("$entry")
 done < <(find "$REPO_ROOT" -type d -name .git -prune -o -type f -name 'metadata.json' -print | sort)
 

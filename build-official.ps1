@@ -2,8 +2,10 @@
 .SYNOPSIS
 Regenerates official.json by scanning every metadata.json under this
 repo and copying its contents into the "Scripts" array. Each entry's
-"File" field is rewritten into the raw GitHub download URL for that
-file, derived from the repo's own "origin" remote and current branch.
+"File" field -- and every "File" inside its optional "Versions" list of
+still-installable older builds -- is rewritten into the raw GitHub
+download URL for that file, derived from the repo's own "origin" remote
+and current branch.
 
 All metadata.json files are read once into memory, the array is built
 up there, and official.json is (re)written once at the end.
@@ -48,6 +50,16 @@ function ConvertTo-UrlPath {
     ($Path -split '/' | ForEach-Object { [Uri]::EscapeDataString($_) }) -join '/'
 }
 
+# The download URL for a path a metadata.json names, resolved relative to the
+# directory that metadata.json sits in. Used for the entry's own "File" and for
+# every older build listed in "Versions".
+function Get-RawUrl {
+    param([string]$MetaDir, [string]$File)
+    $full = [System.IO.Path]::GetFullPath((Join-Path $MetaDir $File))
+    $relative = [System.IO.Path]::GetRelativePath($RepoRoot, $full) -replace '\\', '/'
+    "https://github.com/$ownerRepo/raw/$branch/$(ConvertTo-UrlPath $relative)"
+}
+
 $metadataFiles = Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -Filter 'metadata.json' |
     Where-Object { $_.FullName -notmatch '(?:^|[\\/])\.git(?:[\\/]|$)' } |
     Sort-Object FullName
@@ -58,10 +70,17 @@ foreach ($metaFile in $metadataFiles) {
     $data = Get-Content -LiteralPath $metaFile.FullName -Raw | ConvertFrom-Json
 
     $metaDir = $metaFile.DirectoryName
-    $fullTargetPath = [System.IO.Path]::GetFullPath((Join-Path $metaDir $data.File))
-    $relativePath = [System.IO.Path]::GetRelativePath($RepoRoot, $fullTargetPath) -replace '\\', '/'
+    $data.File = Get-RawUrl $metaDir $data.File
 
-    $data.File = "https://github.com/$ownerRepo/raw/$branch/$(ConvertTo-UrlPath $relativePath)"
+    # "Versions" lists the builds still installable, newest first. Each gets the
+    # same rewrite as the entry's own File, so the app can download an older
+    # version by URL exactly as it does the newest. Re-wrapped in @() because a
+    # one-element array would otherwise serialize as a bare object.
+    if ($data.PSObject.Properties['Versions']) {
+        foreach ($version in $data.Versions) { $version.File = Get-RawUrl $metaDir $version.File }
+        $data.Versions = @($data.Versions)
+    }
+
     $scripts += $data
 }
 
