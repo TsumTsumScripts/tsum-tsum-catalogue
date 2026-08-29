@@ -3,6 +3,11 @@
 What shipped in each release, newest first. 
 _USE WITH CAUTION_
 
+## 0.4 - 2026-08-29
+
+- Round stats save several seconds sooner, and no longer blank a score or coin figure whose digits include a 5
+- Tuned Captain Lightyear 120 skill a bit to hopefully perform better than before.
+
 ## 0.3 - 2026-08-28
 
 - Round stats now record the medals a round earned
