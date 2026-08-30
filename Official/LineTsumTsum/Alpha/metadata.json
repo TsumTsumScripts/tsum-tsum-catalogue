@@ -1,12 +1,18 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum Script - ALPHA",
-  "Version": "0.4",
-  "Date": "2026-08-29 00:21:07",
-  "Hash": "afc6c855ea321ac64b0c4d490bd82aeab43bd04573aa613b7dd231af2fc0e271",
-  "File": "TsumTsum-Alpha-0.4.zip",
-  "Message": "**Changes**\n1. Round stats save several seconds sooner, and no longer blank a score or coin figure whose digits include a 5\n2. Tuned Captain Lightyear 120 skill a bit to hopefully perform better than before.\n\n_USE WITH CAUTION_",
+  "Version": "0.5",
+  "Date": "2026-08-30 01:02:17",
+  "Hash": "5c7301a9f00b5603331de4c5a84ea8cd01f8ad179beef7bd8336cd1117027600",
+  "File": "TsumTsum-Alpha-0.5.zip",
+  "Message": "**Changes**\n1. A Quick Bar along the bottom edge of the screen, below the game's own buttons so it can be left up all run, changes skill, skill level, chain settings and the +Coin and 5>4 items without stopping the run, and shows this run's average coins per round\n2. Pausing now pauses the round as well, so nothing runs down while you change something\n3. With \"Debug logs\" on, the script now records what it is about to do next, so a run that gets stuck can be read back step by step\n4. Each round's stats row now records the settings that round was played under, so a Quick Bar change shows up from the next round rather than on rounds already finished\n5. Opening the settings panel now pauses the run instead of ending it: close it again and the script carries on where it was, or press Play to restart on the settings you just changed\n\n_USE WITH CAUTION_",
   "Versions": [
+    {
+      "Version": "0.5",
+      "Date": "2026-08-30 01:02:17",
+      "Hash": "5c7301a9f00b5603331de4c5a84ea8cd01f8ad179beef7bd8336cd1117027600",
+      "File": "TsumTsum-Alpha-0.5.zip"
+    },
     {
       "Version": "0.4",
       "Date": "2026-08-29 00:21:07",
