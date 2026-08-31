@@ -3,6 +3,12 @@
 What shipped in each release, newest first. 
 _USE WITH CAUTION_
 
+## 0.6 - 2026-08-31
+
+- Coronation Day Elsa skill added: her window freezes as much of the board as it can, then sets the whole pile off in one burst. Elsa reads "Skill Level" as how long her freeze window stays open, 5 seconds at level 1 up to 10 at level 6, and ignores your "Max chain" and "Chains per board scan" settings.
+- Rapunzel+ skill added: her skill draws one chain through tsums of any colour, as long as "Skill Level" allows — 9 tsums at level 1 up to 24 at level 6, ignoring your "Max chain" setting during the skill.
+- "Delay between rounds" setting added: rest a set number of minutes after each round. The Quick Bar counts the rest down and starts the next round on a tap, and the rest can be changed mid-run. Hearts and the mailbox carry on during it.
+
 ## 0.5 - 2026-08-30
 
 - A Quick Bar along the bottom edge of the screen, below the game's own buttons so it can be left up all run, changes skill, skill level, chain settings and the +Coin and 5>4 items without stopping the run, and shows this run's average coins per round

@@ -1,12 +1,18 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum Script - ALPHA",
-  "Version": "0.5",
-  "Date": "2026-08-30 01:02:17",
-  "Hash": "5c7301a9f00b5603331de4c5a84ea8cd01f8ad179beef7bd8336cd1117027600",
-  "File": "TsumTsum-Alpha-0.5.zip",
-  "Message": "**Changes**\n1. A Quick Bar along the bottom edge of the screen, below the game's own buttons so it can be left up all run, changes skill, skill level, chain settings and the +Coin and 5>4 items without stopping the run, and shows this run's average coins per round\n2. Pausing now pauses the round as well, so nothing runs down while you change something\n3. With \"Debug logs\" on, the script now records what it is about to do next, so a run that gets stuck can be read back step by step\n4. Each round's stats row now records the settings that round was played under, so a Quick Bar change shows up from the next round rather than on rounds already finished\n5. Opening the settings panel now pauses the run instead of ending it: close it again and the script carries on where it was, or press Play to restart on the settings you just changed\n\n_USE WITH CAUTION_",
+  "Version": "0.6",
+  "Date": "2026-08-31 21:38:17",
+  "Hash": "bd31a28f80ae084e77360f3369396a79af9268732c85f001fa41de2616416906",
+  "File": "TsumTsum-Alpha-0.6.zip",
+  "Message": "**Changes**\n1. Coronation Day Elsa skill added: her window freezes as much of the board as it can, then sets the whole pile off in one burst. Elsa reads \"Skill Level\" as how long her freeze window stays open, 5 seconds at level 1 up to 10 at level 6, and ignores your \"Max chain\" and \"Chains per board scan\" settings.\n2. Rapunzel+ skill added: her skill draws one chain through tsums of any colour, as long as \"Skill Level\" allows — 9 tsums at level 1 up to 24 at level 6, ignoring your \"Max chain\" setting during the skill.\n3. \"Delay between rounds\" setting added: rest a set number of minutes after each round. The Quick Bar counts the rest down and starts the next round on a tap, and the rest can be changed mid-run. Hearts and the mailbox carry on during it.\n\n_USE WITH CAUTION_",
   "Versions": [
+    {
+      "Version": "0.6",
+      "Date": "2026-08-31 21:38:17",
+      "Hash": "bd31a28f80ae084e77360f3369396a79af9268732c85f001fa41de2616416906",
+      "File": "TsumTsum-Alpha-0.6.zip"
+    },
     {
       "Version": "0.5",
       "Date": "2026-08-30 01:02:17",
@@ -30,12 +36,6 @@
       "Date": "2026-08-26 09:34:55",
       "Hash": "67c19b671f501f8a1f67df71d72949e9a627b8f12bee748ad91c58c86bd304d5",
       "File": "TsumTsum-Alpha-0.2.zip"
-    },
-    {
-      "Version": "0.1",
-      "Date": "2026-08-24 02:58:15",
-      "Hash": "4e91e4683ffea7b495fb8798efa85046f5e1274d14483d78f0800e71bda2182d",
-      "File": "TsumTsum-Alpha-0.1.zip"
     }
   ]
 }
