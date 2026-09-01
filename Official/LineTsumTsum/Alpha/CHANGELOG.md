@@ -3,6 +3,14 @@
 What shipped in each release, newest first. 
 _USE WITH CAUTION_
 
+## 0.7 - 2026-09-01
+
+- Formal Beast skill improved: he keeps the two halves of his gauge level by shortening chains rather than skipping them, and links much longer chains while his mode is up, so playing for the double payout no longer costs the round its pace.
+- Fixed the script opening the Card screen over and over on the home and friends pages instead of getting on with the round.
+- Unlock Level every hours rebuilt. Has a Now button that runs one sweep straight away whatever the schedule says -- ahead of everything but a round in progress, and starting the script if it is stopped.
+- Fixed Link MyTsum first almost never finding MyTsum on the board: it was reading the colour off the skill button's gauge instead of the Tsum, and now knows what each Tsum looks like on a board.
+- Fixed Stop letting a tap the paused script was still waiting to make go off on whatever screen was open by then: once stopped, nothing the script had queued reaches the game.
+
 ## 0.6 - 2026-08-31
 
 - Coronation Day Elsa skill added: her window freezes as much of the board as it can, then sets the whole pile off in one burst. Elsa reads "Skill Level" as how long her freeze window stays open, 5 seconds at level 1 up to 10 at level 6, and ignores your "Max chain" and "Chains per board scan" settings.
