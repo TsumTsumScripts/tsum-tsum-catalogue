@@ -3,6 +3,11 @@
 What shipped in each release, newest first. 
 _USE WITH CAUTION_
 
+## 0.8 - 2026-09-02
+
+- Fixed the level cap sweep walking the whole collection in the order the player had it in, raising nothing: the tap that picks Level Lock is now checked and taken again if the dialog was still opening when it landed.
+- Fixed a round played with an event card recording no score or coins: the event's result screen is now tapped away whatever the event looks like, its page closed, and the card reveal and gift screens it puts up at milestones dismissed, instead of giving up on the score page.
+
 ## 0.7 - 2026-09-01
 
 - Formal Beast skill improved: he keeps the two halves of his gauge level by shortening chains rather than skipping them, and links much longer chains while his mode is up, so playing for the double payout no longer costs the round its pace.
