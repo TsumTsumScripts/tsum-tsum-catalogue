@@ -1,12 +1,18 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum Script - ALPHA",
-  "Version": "0.8",
-  "Date": "2026-09-02 07:32:34",
-  "Hash": "9da743fc3dc16b58d4db248f4903d4fc1f85dcd7962da9460aea97c47bcf0b4d",
-  "File": "TsumTsum-Alpha-0.8.zip",
-  "Message": "**Changes**\n1. Fixed the level cap sweep walking the whole collection in the order the player had it in, raising nothing: the tap that picks Level Lock is now checked and taken again if the dialog was still opening when it landed.\n2. Fixed a round played with an event card recording no score or coins: the event's result screen is now tapped away whatever the event looks like, its page closed, and the card reveal and gift screens it puts up at milestones dismissed, instead of giving up on the score page.\n\n_USE WITH CAUTION_",
+  "Version": "0.9",
+  "Date": "2026-09-03 01:58:29",
+  "Hash": "e591785752fb90bb4af855f0d1028288f44a1755144b4961cb07a0061cde7d5d",
+  "File": "TsumTsum-Alpha-0.9.zip",
+  "Message": "**Changes**\n1. Box Buying chore added: buys Premium Box+, Premium, Select or Happiness boxes from the Tsum Tsum Store on a schedule, one or ten at a time, and stops when the box sells out or the Coins run low. Rubies are never spent.\n2. Settings now has a Chores tab, so the jobs the script does between rounds are in one place instead of at the bottom of Gameplay.\n3. A long skill animation can no longer be mistaken for the end of a round: the script always waits for the round to actually be over. The Handle Long Skill Animations switch is gone, because there was never a reason to turn it off.\n4. Settings codes made before this version are refused — copy a fresh one from a device on 0.9.\n5. A settings code is now shown as a QR as well as text, so someone else can take your setup by photographing the screen instead of being sent the line.\n6. Record Sender is gone. It counted hearts per friend into a file nothing could show you any more, and the running heart totals it used to carry now survive a restart on their own.\n\n_USE WITH CAUTION_",
   "Versions": [
+    {
+      "Version": "0.9",
+      "Date": "2026-09-03 01:58:29",
+      "Hash": "e591785752fb90bb4af855f0d1028288f44a1755144b4961cb07a0061cde7d5d",
+      "File": "TsumTsum-Alpha-0.9.zip"
+    },
     {
       "Version": "0.8",
       "Date": "2026-09-02 07:32:34",
@@ -30,12 +36,6 @@
       "Date": "2026-08-30 01:02:17",
       "Hash": "5c7301a9f00b5603331de4c5a84ea8cd01f8ad179beef7bd8336cd1117027600",
       "File": "TsumTsum-Alpha-0.5.zip"
-    },
-    {
-      "Version": "0.4",
-      "Date": "2026-08-29 00:21:07",
-      "Hash": "afc6c855ea321ac64b0c4d490bd82aeab43bd04573aa613b7dd231af2fc0e271",
-      "File": "TsumTsum-Alpha-0.4.zip"
     }
   ]
 }

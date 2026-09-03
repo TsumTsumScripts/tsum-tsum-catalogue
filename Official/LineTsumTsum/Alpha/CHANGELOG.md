@@ -3,6 +3,15 @@
 What shipped in each release, newest first. 
 _USE WITH CAUTION_
 
+## 0.9 - 2026-09-03
+
+- Box Buying chore added: buys Premium Box+, Premium, Select or Happiness boxes from the Tsum Tsum Store on a schedule, one or ten at a time, and stops when the box sells out or the Coins run low. Rubies are never spent.
+- Settings now has a Chores tab, so the jobs the script does between rounds are in one place instead of at the bottom of Gameplay.
+- A long skill animation can no longer be mistaken for the end of a round: the script always waits for the round to actually be over. The Handle Long Skill Animations switch is gone, because there was never a reason to turn it off.
+- Settings codes made before this version are refused — copy a fresh one from a device on 0.9.
+- A settings code is now shown as a QR as well as text, so someone else can take your setup by photographing the screen instead of being sent the line.
+- Record Sender is gone. It counted hearts per friend into a file nothing could show you any more, and the running heart totals it used to carry now survive a restart on their own.
+
 ## 0.8 - 2026-09-02
 
 - Fixed the level cap sweep walking the whole collection in the order the player had it in, raising nothing: the tap that picks Level Lock is now checked and taken again if the dialog was still opening when it landed.
