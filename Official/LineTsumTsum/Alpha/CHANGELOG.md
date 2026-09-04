@@ -3,6 +3,17 @@
 What shipped in each release, newest first. 
 _USE WITH CAUTION_
 
+## 0.10 - 2026-09-04
+
+- Lorcana Card setting added: plays the Lorcana Tsums' transformation, tapping the card when it appears and clearing the ink stones their skill leaves behind.
+- \*NOT RECOMMENDED\* Lorcana Aurora skill added, chaining every bubble on the board into one drag the moment they settle once she has transformed.
+- Picking a skill that needs a setting now switches that setting on for you.
+- Boards where red, green and yellow tsums sit together are read properly now, so chains get made where the script used to find none.
+- Sending hearts no longer stalls on the Gift a Heart screen and skips the friend.
+- Box Buying finds the limited-time Select Box now, instead of saying the store is not selling it.
+- The "Burst bubbles" skill is now called "Burst + clear bubbles", and clears the whole board after the skill instead of only the bottom third.
+- Chores start in a fixed order rather than the order of their wait settings, and a sweep asked for with a Now button goes before the next round instead of after it.
+
 ## 0.9 - 2026-09-03
 
 - Box Buying chore added: buys Premium Box+, Premium, Select or Happiness boxes from the Tsum Tsum Store on a schedule, one or ten at a time, and stops when the box sells out or the Coins run low. Rubies are never spent.

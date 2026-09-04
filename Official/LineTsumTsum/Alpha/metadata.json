@@ -1,12 +1,18 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum Script - ALPHA",
-  "Version": "0.9",
-  "Date": "2026-09-03 01:58:29",
-  "Hash": "e591785752fb90bb4af855f0d1028288f44a1755144b4961cb07a0061cde7d5d",
-  "File": "TsumTsum-Alpha-0.9.zip",
-  "Message": "**Changes**\n1. Box Buying chore added: buys Premium Box+, Premium, Select or Happiness boxes from the Tsum Tsum Store on a schedule, one or ten at a time, and stops when the box sells out or the Coins run low. Rubies are never spent.\n2. Settings now has a Chores tab, so the jobs the script does between rounds are in one place instead of at the bottom of Gameplay.\n3. A long skill animation can no longer be mistaken for the end of a round: the script always waits for the round to actually be over. The Handle Long Skill Animations switch is gone, because there was never a reason to turn it off.\n4. Settings codes made before this version are refused — copy a fresh one from a device on 0.9.\n5. A settings code is now shown as a QR as well as text, so someone else can take your setup by photographing the screen instead of being sent the line.\n6. Record Sender is gone. It counted hearts per friend into a file nothing could show you any more, and the running heart totals it used to carry now survive a restart on their own.\n\n_USE WITH CAUTION_",
+  "Version": "0.10",
+  "Date": "2026-09-04 09:35:54",
+  "Hash": "1aa8d144fe9fabc60152fa85506843a662f87a408e298737b0c096bf68f8ae8f",
+  "File": "TsumTsum-Alpha-0.10.zip",
+  "Message": "**Changes**\n1. Lorcana Card setting added: plays the Lorcana Tsums' transformation, tapping the card when it appears and clearing the ink stones their skill leaves behind.\n2. \\*NOT RECOMMENDED\\* Lorcana Aurora skill added, chaining every bubble on the board into one drag the moment they settle once she has transformed.\n3. Picking a skill that needs a setting now switches that setting on for you.\n4. Boards where red, green and yellow tsums sit together are read properly now, so chains get made where the script used to find none.\n5. Sending hearts no longer stalls on the Gift a Heart screen and skips the friend.\n6. Box Buying finds the limited-time Select Box now, instead of saying the store is not selling it.\n7. The \"Burst bubbles\" skill is now called \"Burst + clear bubbles\", and clears the whole board after the skill instead of only the bottom third.\n8. Chores start in a fixed order rather than the order of their wait settings, and a sweep asked for with a Now button goes before the next round instead of after it.\n\n_USE WITH CAUTION_",
   "Versions": [
+    {
+      "Version": "0.10",
+      "Date": "2026-09-04 09:35:54",
+      "Hash": "1aa8d144fe9fabc60152fa85506843a662f87a408e298737b0c096bf68f8ae8f",
+      "File": "TsumTsum-Alpha-0.10.zip"
+    },
     {
       "Version": "0.9",
       "Date": "2026-09-03 01:58:29",
@@ -30,12 +36,6 @@
       "Date": "2026-08-31 21:38:17",
       "Hash": "bd31a28f80ae084e77360f3369396a79af9268732c85f001fa41de2616416906",
       "File": "TsumTsum-Alpha-0.6.zip"
-    },
-    {
-      "Version": "0.5",
-      "Date": "2026-08-30 01:02:17",
-      "Hash": "5c7301a9f00b5603331de4c5a84ea8cd01f8ad179beef7bd8336cd1117027600",
-      "File": "TsumTsum-Alpha-0.5.zip"
     }
   ]
 }
