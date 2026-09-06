@@ -2,15 +2,15 @@
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum Script - BETA",
   "Version": "0.11",
-  "Date": "2026-09-06 19:00:17",
-  "Hash": "75de434e4e3451e4e3fa5f0291a335e41c2e7e7ce92b730bf42b3e590e936534",
+  "Date": "2026-09-06 20:23:30",
+  "Hash": "bf8a48e6f197a6d2d7bbcd1440055c59ff2ee7b506c153865e9f7bfea9678071",
   "File": "TsumTsum-Beta-0.11.zip",
-  "Message": "**Changes**\n1. The Skill Type list is split into Burst, Bubble and Unique, each with the plain option first and the named tsums after it by name.\n2. Outside tools can now follow a run's rounds as they happen.\n3. A Skip Medals switch leaves Mission Clear medals in the mailbox and scrolls past them, so receiving hearts one by one collects only hearts.\n\n_Testing build -- please report anything odd._",
+  "Message": "**Changes**\n1. The Skill Type list is split into Burst, Bubble and Unique, each with the plain option first and the named tsums after it by name.\n2. Outside tools can now follow a run's rounds as they happen.\n3. A Skip Medals switch leaves Mission Clear medals in the mailbox and scrolls past them, so receiving hearts one by one collects only hearts.\n4. A round played in a point battle no longer leaves the script stuck on the score page until the game restarts.\n\n_Testing build -- please report anything odd._",
   "Versions": [
     {
       "Version": "0.11",
-      "Date": "2026-09-06 19:00:17",
-      "Hash": "75de434e4e3451e4e3fa5f0291a335e41c2e7e7ce92b730bf42b3e590e936534",
+      "Date": "2026-09-06 20:23:30",
+      "Hash": "bf8a48e6f197a6d2d7bbcd1440055c59ff2ee7b506c153865e9f7bfea9678071",
       "File": "TsumTsum-Beta-0.11.zip"
     }
   ]
