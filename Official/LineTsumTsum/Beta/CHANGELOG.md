@@ -11,6 +11,7 @@ _Testing build -- please report anything odd._
 - Max round duration added: cap how long one round may last, and pick what happens when it is up -- stop playing and let the clock run out, so the round finishes as normal and the next one starts, or stop the script.
 - A board that stops taking chains -- the same few tsums lit up over and over with nothing going off -- is now noticed and fanned loose on its own, instead of running until the round ends.
 - Reporting a problem added: press Report on the Debug tab or the Quick Bar -- or hold the floating bar's Log button -- and the screen, the screens before it, your settings and the recent log are saved to share or save from Run History; the script saves one by itself whenever it gets stuck. The Quick Bar's Report works while the script is still playing, so it catches the live screen rather than the pause menu.
+- The status line under the floating bar stays clear of what the script reads: on a device where the two would meet it shrinks or steps aside, instead of hiding the board from the script.
 
 ## 0.11 - 2026-09-06
 
