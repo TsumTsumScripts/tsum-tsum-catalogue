@@ -7,6 +7,7 @@ _Testing build -- please report anything odd._
 
 - Two grey or black-and-white tsums on one board -- the Mandalorian beside Oswald, say -- are told apart instead of being chained together and refused.
 - Link MyTsum first finds your tsum's colour on the board again, instead of guessing from the skill button.
+- Round stats no longer leave the base coins blank when the counter ends in 44.
 
 ## 0.12 - 2026-09-10
 

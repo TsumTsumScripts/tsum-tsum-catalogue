@@ -2,15 +2,15 @@
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum Script - BETA",
   "Version": "0.13",
-  "Date": "2026-09-11 16:56:43",
-  "Hash": "f174b11144d6befbeb674ca2f2136662b438ac6d64f6b48827a580de7b13f221",
+  "Date": "2026-09-11 19:25:26",
+  "Hash": "7c6fbec48f7674eabaf9788cf5248c573072dd2aea7b1b75dad6f800f91a30d3",
   "File": "TsumTsum-Beta-0.13.zip",
-  "Message": "**Changes**\n1. Two grey or black-and-white tsums on one board -- the Mandalorian beside Oswald, say -- are told apart instead of being chained together and refused.\n2. Link MyTsum first finds your tsum's colour on the board again, instead of guessing from the skill button.\n\n_Testing build -- please report anything odd._",
+  "Message": "**Changes**\n1. Two grey or black-and-white tsums on one board -- the Mandalorian beside Oswald, say -- are told apart instead of being chained together and refused.\n2. Link MyTsum first finds your tsum's colour on the board again, instead of guessing from the skill button.\n3. Round stats no longer leave the base coins blank when the counter ends in 44.\n\n_Testing build -- please report anything odd._",
   "Versions": [
     {
       "Version": "0.13",
-      "Date": "2026-09-11 16:56:43",
-      "Hash": "f174b11144d6befbeb674ca2f2136662b438ac6d64f6b48827a580de7b13f221",
+      "Date": "2026-09-11 19:25:26",
+      "Hash": "7c6fbec48f7674eabaf9788cf5248c573072dd2aea7b1b75dad6f800f91a30d3",
       "File": "TsumTsum-Beta-0.13.zip"
     },
     {
