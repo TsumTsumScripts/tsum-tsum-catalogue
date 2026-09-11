@@ -3,6 +3,11 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 0.13 - 2026-09-11
+
+- Two grey or black-and-white tsums on one board -- the Mandalorian beside Oswald, say -- are told apart instead of being chained together and refused.
+- Link MyTsum first finds your tsum's colour on the board again, instead of guessing from the skill button.
+
 ## 0.12 - 2026-09-10
 
 - Lorcana Aurora skill improved and moved out of WIP.

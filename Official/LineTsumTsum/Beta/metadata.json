@@ -1,12 +1,18 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum Script - BETA",
-  "Version": "0.12",
-  "Date": "2026-09-10 21:03:44",
-  "Hash": "006f503949df3dda5080375dc6ff24cd6f5aa9cbc5e3fbad549abb15ce9ae3a9",
-  "File": "TsumTsum-Beta-0.12.zip",
-  "Message": "**Changes**\n1. Lorcana Aurora skill improved and moved out of WIP.\n2. Box Buying improved\n3. Presets added: save how you play a round under a name and switch between setups from the top of the settings or from the Quick Bar, without stopping the run; exporting them writes one settings code each, to the clipboard or to a file, and pasting a line back applies it.\n4. Max round duration added: cap how long one round may last, and pick what happens when it is up -- stop playing and let the clock run out, so the round finishes as normal and the next one starts, or stop the script.\n5. A board that stops taking chains -- the same few tsums lit up over and over with nothing going off -- is now noticed and fanned loose on its own, instead of running until the round ends.\n6. Reporting a problem added: press Report on the Debug tab or the Quick Bar -- or hold the floating bar's Log button -- and the screen, the screens before it, your settings and the recent log are saved to share or save from Run History; the script saves one by itself whenever it gets stuck. The Quick Bar's Report works while the script is still playing, so it catches the live screen rather than the pause menu.\n7. The status line under the floating bar stays clear of what the script reads: on a device where the two would meet it shrinks or steps aside, instead of hiding the board from the script.\n\n_Testing build -- please report anything odd._",
+  "Version": "0.13",
+  "Date": "2026-09-11 16:56:43",
+  "Hash": "f174b11144d6befbeb674ca2f2136662b438ac6d64f6b48827a580de7b13f221",
+  "File": "TsumTsum-Beta-0.13.zip",
+  "Message": "**Changes**\n1. Two grey or black-and-white tsums on one board -- the Mandalorian beside Oswald, say -- are told apart instead of being chained together and refused.\n2. Link MyTsum first finds your tsum's colour on the board again, instead of guessing from the skill button.\n\n_Testing build -- please report anything odd._",
   "Versions": [
+    {
+      "Version": "0.13",
+      "Date": "2026-09-11 16:56:43",
+      "Hash": "f174b11144d6befbeb674ca2f2136662b438ac6d64f6b48827a580de7b13f221",
+      "File": "TsumTsum-Beta-0.13.zip"
+    },
     {
       "Version": "0.12",
       "Date": "2026-09-10 21:03:44",
