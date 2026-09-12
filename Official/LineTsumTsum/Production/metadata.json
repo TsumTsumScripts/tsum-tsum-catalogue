@@ -1,0 +1,17 @@
+{
+  "Game": "Tsum Tsum",
+  "Name": "Tsum Tsum Script",
+  "Version": "1.0",
+  "Date": "2026-09-12 22:43:00",
+  "Hash": "f4a4ea90a2a6fb2e449bbbc3984d4a78b1bf34ffa3f71a93c45ce0040b7eefef",
+  "File": "TsumTsum-1.0.zip",
+  "Message": "**Changes**\n1. Version bump from 0.13 to 1.0",
+  "Versions": [
+    {
+      "Version": "1.0",
+      "Date": "2026-09-12 22:43:00",
+      "Hash": "f4a4ea90a2a6fb2e449bbbc3984d4a78b1bf34ffa3f71a93c45ce0040b7eefef",
+      "File": "TsumTsum-1.0.zip"
+    }
+  ]
+}
