@@ -6,11 +6,13 @@ on:
     paths:
       - '**/metadata.json'
       - 'build-official.sh'
+      - 'site/**'
       - '.github/workflows/build-official.yml'
   workflow_dispatch:
 
 # official.json is never committed (see .gitignore) - it is generated here
-# and published to GitHub Pages instead.
+# and published to GitHub Pages, next to the getting-started page in site/.
+# The app reads official.json from the site root, so it stays at the root.
 permissions:
   contents: read
   pages: write
@@ -40,6 +42,7 @@ jobs:
       - name: Stage site
         run: |
           mkdir -p _site
+          cp -R site/. _site/
           cp official.json _site/official.json
 
       - name: Upload artifact
