@@ -1,12 +1,18 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum Script - BETA",
-  "Version": "2.0",
-  "Date": "2026-09-14 18:09:01",
-  "Hash": "5d58fc107a5d4091ead1350136ba3870967bf8b82bc1ea5ef86275a5ec3c6667",
-  "File": "TsumTsum-Beta-2.0.zip",
-  "Message": "**Changes**\n1. Version bump from 1.0 to 2.0\n2. Coronation Day Elsa skill promoted to Beta.\n3. Coronation Elsa Legacy skill added: the 1.0 version of the freeze window, offered beside the current one on Beta builds so the two can be compared.\n4. The JP game's Magical Time offer is now recognised and cancelled like the EN one.\n5. Box Buying no longer stalls on the \"You got a Patch!\" popup a purchase can come with: it is closed like the reveal card and the sweep goes on.\n6. Box Buying handles the store refusing a 10-Time purchase on a nearly empty box (\"You can't use 10-Time Purchases\"): the sweep ends there instead of retrying into it, and the new \"Ten, then one until sold out\" size carries on singly to empty the box. \"Buy ten at a time\" became the \"Boxes per purchase\" dropdown.\n7. Rounds turn over faster: the score tally's count-up is tapped through instead of waited out.\n\n_Testing build -- please report anything odd._",
+  "Version": "2.0-beta2",
+  "Date": "2026-09-15 08:47:21",
+  "Hash": "6ad4fd2b3f2115554f1c8cdd26923edcd2bccfecb02801fff604414eee36b5e9",
+  "File": "TsumTsum-Beta-2.0-beta2.zip",
+  "Message": "**Changes**\n1. Debug tab: a Detect MyTsum button reads which tsum the pre-round screen shows selected, without playing a round.\n2. The selected tsum is named as the running game prints it: in English on the international game, in Japanese on the Japan game.\n3. Auto launch finds the Japan game on its own: whichever build is installed is the one started, so nothing has to be set for it. The stats CSV gains a `build` column.\n\n_Testing build -- please report anything odd._",
   "Versions": [
+    {
+      "Version": "2.0-beta2",
+      "Date": "2026-09-15 08:47:21",
+      "Hash": "6ad4fd2b3f2115554f1c8cdd26923edcd2bccfecb02801fff604414eee36b5e9",
+      "File": "TsumTsum-Beta-2.0-beta2.zip"
+    },
     {
       "Version": "2.0",
       "Date": "2026-09-14 18:09:01",
