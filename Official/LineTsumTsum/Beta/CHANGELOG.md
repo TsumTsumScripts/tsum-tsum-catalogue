@@ -3,6 +3,13 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 2.0b3 - 2026-09-16
+
+- Skip Ruby now works like Skip Medals: rubies are left in the mailbox and the mail under them is still taken, instead of the chore stopping at the first ruby.
+- "Hold bubbles last fever seconds" setting added: leaves bubbles alone while a fever is about to end, so they are there to pop into the first chains after it and start the next fever sooner.
+- Bubbles are popped once tsums have refilled around them, so one a burst skill leaves is no longer spent on the empty space it left.
+- Round stats: a medal count with a 0 in it is no longer left blank.
+
 ## 2.0-beta2 - 2026-09-15
 
 - Debug tab: a Detect MyTsum button reads which tsum the pre-round screen shows selected, without playing a round.

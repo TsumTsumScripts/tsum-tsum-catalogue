@@ -1,12 +1,18 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum Script - BETA",
-  "Version": "2.0-beta2",
-  "Date": "2026-09-15 08:47:21",
-  "Hash": "6ad4fd2b3f2115554f1c8cdd26923edcd2bccfecb02801fff604414eee36b5e9",
-  "File": "TsumTsum-Beta-2.0-beta2.zip",
-  "Message": "**Changes**\n1. Debug tab: a Detect MyTsum button reads which tsum the pre-round screen shows selected, without playing a round.\n2. The selected tsum is named as the running game prints it: in English on the international game, in Japanese on the Japan game.\n3. Auto launch finds the Japan game on its own: whichever build is installed is the one started, so nothing has to be set for it. The stats CSV gains a `build` column.\n\n_Testing build -- please report anything odd._",
+  "Version": "2.0b3",
+  "Date": "2026-09-16 14:31:33",
+  "Hash": "64d107ccbdcf6b4247d134df9ed08733f836eebbfe280c9cf5fc9870a7578d09",
+  "File": "TsumTsum-Beta-2.0b3.zip",
+  "Message": "**Changes**\n1. Skip Ruby now works like Skip Medals: rubies are left in the mailbox and the mail under them is still taken, instead of the chore stopping at the first ruby.\n2. \"Hold bubbles last fever seconds\" setting added: leaves bubbles alone while a fever is about to end, so they are there to pop into the first chains after it and start the next fever sooner.\n3. Bubbles are popped once tsums have refilled around them, so one a burst skill leaves is no longer spent on the empty space it left.\n4. Round stats: a medal count with a 0 in it is no longer left blank.\n\n_Testing build -- please report anything odd._",
   "Versions": [
+    {
+      "Version": "2.0b3",
+      "Date": "2026-09-16 14:31:33",
+      "Hash": "64d107ccbdcf6b4247d134df9ed08733f836eebbfe280c9cf5fc9870a7578d09",
+      "File": "TsumTsum-Beta-2.0b3.zip"
+    },
     {
       "Version": "2.0-beta2",
       "Date": "2026-09-15 08:47:21",
