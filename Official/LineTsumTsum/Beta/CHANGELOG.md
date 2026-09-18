@@ -3,6 +3,10 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 2.0b4 - 2026-09-18
+
+- "Auto Unlock MyTsum Level" setting added: when the level-up screen after a round shows "Raise level cap!" on your MyTsum, the script buys that one raise from the Tsum list and plays on.
+
 ## 2.0b3 - 2026-09-16
 
 - Skip Ruby now works like Skip Medals: rubies are left in the mailbox and the mail under them is still taken, instead of the chore stopping at the first ruby.

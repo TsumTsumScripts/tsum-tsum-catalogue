@@ -1,12 +1,18 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum Script - BETA",
-  "Version": "2.0b3",
-  "Date": "2026-09-16 14:31:33",
-  "Hash": "64d107ccbdcf6b4247d134df9ed08733f836eebbfe280c9cf5fc9870a7578d09",
-  "File": "TsumTsum-Beta-2.0b3.zip",
-  "Message": "**Changes**\n1. Skip Ruby now works like Skip Medals: rubies are left in the mailbox and the mail under them is still taken, instead of the chore stopping at the first ruby.\n2. \"Hold bubbles last fever seconds\" setting added: leaves bubbles alone while a fever is about to end, so they are there to pop into the first chains after it and start the next fever sooner.\n3. Bubbles are popped once tsums have refilled around them, so one a burst skill leaves is no longer spent on the empty space it left.\n4. Round stats: a medal count with a 0 in it is no longer left blank.\n\n_Testing build -- please report anything odd._",
+  "Version": "2.0b4",
+  "Date": "2026-09-18 03:39:15",
+  "Hash": "c5cc764a46506286f2105a4902eec0e9bf045e9eb03341e45438d39a609693f3",
+  "File": "TsumTsum-Beta-2.0b4.zip",
+  "Message": "**Changes**\n1. \"Auto Unlock MyTsum Level\" setting added: when the level-up screen after a round shows \"Raise level cap!\" on your MyTsum, the script buys that one raise from the Tsum list and plays on.\n\n_Testing build -- please report anything odd._",
   "Versions": [
+    {
+      "Version": "2.0b4",
+      "Date": "2026-09-18 03:39:15",
+      "Hash": "c5cc764a46506286f2105a4902eec0e9bf045e9eb03341e45438d39a609693f3",
+      "File": "TsumTsum-Beta-2.0b4.zip"
+    },
     {
       "Version": "2.0b3",
       "Date": "2026-09-16 14:31:33",
