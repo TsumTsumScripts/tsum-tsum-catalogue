@@ -2,15 +2,15 @@
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum Script",
   "Version": "2.0",
-  "Date": "2026-09-19 07:06:29",
-  "Hash": "63b87dbee3a6decb37afd4ca41bead58287dfcd321f215ebfab82ee01fdfa1e4",
+  "Date": "2026-09-19 20:41:35",
+  "Hash": "01d2279b0910415fb1d200781225c498dbbf60a157ea33462afd79117a231609",
   "File": "TsumTsum-2.0.zip",
   "Message": "**Changes**\n1. Version bump from 1.0 to 2.0\n2. \"Auto Unlock MyTsum Level\" setting added: when the level-up screen after a round shows \"Raise level cap!\" on your MyTsum, the script buys that one raise from the Tsum list and plays on.\n3. \"Hold bubbles last fever seconds\" setting added: leaves bubbles alone while a fever is about to end, so they are there to pop into the first chains after it and start the next fever sooner.\n4. Bubbles are popped once tsums have refilled around them, so one a burst skill leaves is no longer spent on the empty space it left.\n5. Skip Ruby now works like Skip Medals: rubies are left in the mailbox and the mail under them is still taken, instead of the chore stopping at the first ruby.\n6. Box Buying no longer stalls on the \"You got a Patch!\" popup a purchase can come with: it is closed like the reveal card and the sweep goes on.\n7. Box Buying handles the store refusing a 10-Time purchase on a nearly empty box (\"You can't use 10-Time Purchases\"): the sweep ends there instead of retrying into it, and the new \"Ten, then one until sold out\" size carries on singly to empty the box. \"Buy ten at a time\" became the \"Boxes per purchase\" dropdown.\n8. Auto launch finds the Japan game on its own: whichever build is installed is the one started, so nothing has to be set for it. The stats CSV gains a `build` column.\n9. The selected tsum is named as the running game prints it: in English on the international game, in Japanese on the Japan game.\n10. The JP game's Magical Time offer is now recognised and cancelled like the EN one.\n11. Debug tab: a Detect MyTsum button reads which tsum the pre-round screen shows selected, without playing a round.\n12. Rounds turn over faster: the score tally's count-up is tapped through instead of waited out.\n13. Round stats: a medal count with a 0 in it is no longer left blank.",
   "Versions": [
     {
       "Version": "2.0",
-      "Date": "2026-09-19 07:06:29",
-      "Hash": "63b87dbee3a6decb37afd4ca41bead58287dfcd321f215ebfab82ee01fdfa1e4",
+      "Date": "2026-09-19 20:41:35",
+      "Hash": "01d2279b0910415fb1d200781225c498dbbf60a157ea33462afd79117a231609",
       "File": "TsumTsum-2.0.zip"
     },
     {
