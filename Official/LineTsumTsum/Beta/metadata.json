@@ -1,0 +1,17 @@
+{
+  "Game": "Tsum Tsum",
+  "Name": "Tsum Tsum Script - BETA",
+  "Version": "2.1",
+  "Date": "2026-09-20 02:52:16",
+  "Hash": "4236fb339a70c16c4cbb23f0b83c6fdef2a897f937bd19193ee81183ab925753",
+  "File": "TsumTsum-Beta-2.1.zip",
+  "Message": "**Changes**\n1. The script no longer sits on the game's pause menu flipping the Gyro switch when a chore starts during a round; the chore waits for the round instead.\n\n_Testing build -- please report anything odd._",
+  "Versions": [
+    {
+      "Version": "2.1",
+      "Date": "2026-09-20 02:52:16",
+      "Hash": "4236fb339a70c16c4cbb23f0b83c6fdef2a897f937bd19193ee81183ab925753",
+      "File": "TsumTsum-Beta-2.1.zip"
+    }
+  ]
+}
