@@ -1,12 +1,18 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum Script - BETA",
-  "Version": "2.1",
-  "Date": "2026-09-20 02:52:16",
-  "Hash": "4236fb339a70c16c4cbb23f0b83c6fdef2a897f937bd19193ee81183ab925753",
-  "File": "TsumTsum-Beta-2.1.zip",
-  "Message": "**Changes**\n1. The script no longer sits on the game's pause menu flipping the Gyro switch when a chore starts during a round; the chore waits for the round instead.\n\n_Testing build -- please report anything odd._",
+  "Version": "2.1b2",
+  "Date": "2026-09-20 07:14:20",
+  "Hash": "fd20e1ebb85d03eba5fea50e9d60371d8710b5dde139c0005e5539b1ff9b8cf9",
+  "File": "TsumTsum-Beta-2.1b2.zip",
+  "Message": "**Changes**\n1. The script no longer sits on the game's pause menu flipping the Gyro switch when a chore starts during a round; the chore waits for the round instead.\n2. Max round duration: once it stops playing a long round it now waits for the game over screen however long that takes, instead of picking the round back up after a few minutes.\n\n_Testing build -- please report anything odd._",
   "Versions": [
+    {
+      "Version": "2.1b2",
+      "Date": "2026-09-20 07:14:20",
+      "Hash": "fd20e1ebb85d03eba5fea50e9d60371d8710b5dde139c0005e5539b1ff9b8cf9",
+      "File": "TsumTsum-Beta-2.1b2.zip"
+    },
     {
       "Version": "2.1",
       "Date": "2026-09-20 02:52:16",
