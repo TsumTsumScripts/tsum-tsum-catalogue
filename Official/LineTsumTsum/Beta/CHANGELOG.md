@@ -3,6 +3,10 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 3.0b3 - 2026-09-25
+
+- Fixed Unlock Level and Box Buying repeating back to back instead of waiting their set hours, and Unlock Level missing capped Tsums when the collection opened past its first page.
+
 ## 3.0b2 - 2026-09-25
 
 - The next round starts about 3 seconds sooner after the score tally, and the tally's count-up is now skipped with round stats off too.

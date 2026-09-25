@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "3.0b2",
-  "Date": "2026-09-25 05:22:17",
-  "Hash": "b90a058ee5f12f897610c87aa7ce626f1aa7d1f10ed228ebc27313132281ac45",
-  "File": "TsumTsum-Beta-3.0b2.zip",
-  "Message": "**Changes**\n1. The next round starts about 3 seconds sooner after the score tally, and the tally's count-up is now skipped with round stats off too.\n2. Gaston skill improved and moved to Beta.\n\n_Testing build -- please report anything odd._",
+  "Version": "3.0b3",
+  "Date": "2026-09-25 06:50:41",
+  "Hash": "27bdb3aca8b812f3a2d47cb842bd22d36f7f76de0a8cee82b80b4c41fbfb0ef5",
+  "File": "TsumTsum-Beta-3.0b3.zip",
+  "Message": "**Changes**\n1. Fixed Unlock Level and Box Buying repeating back to back instead of waiting their set hours, and Unlock Level missing capped Tsums when the collection opened past its first page.\n\n_Testing build -- please report anything odd._",
   "MinHost": "2.0",
   "Versions": [
+    {
+      "Version": "3.0b3",
+      "Date": "2026-09-25 06:50:41",
+      "Hash": "27bdb3aca8b812f3a2d47cb842bd22d36f7f76de0a8cee82b80b4c41fbfb0ef5",
+      "File": "TsumTsum-Beta-3.0b3.zip",
+      "MinHost": "2.0"
+    },
     {
       "Version": "3.0b2",
       "Date": "2026-09-25 05:22:17",
