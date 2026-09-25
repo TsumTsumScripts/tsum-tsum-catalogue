@@ -1,7 +1,12 @@
-# Tsum Tsum Script - BETA
+# Tsum Tsum - BETA
 
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
+
+## 3.0b2 - 2026-09-25
+
+- The next round starts about 3 seconds sooner after the score tally, and the tally's count-up is now skipped with round stats off too.
+- Gaston skill improved and moved to Beta.
 
 ## 3.0b - 2026-09-22
 
