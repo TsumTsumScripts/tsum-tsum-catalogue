@@ -3,6 +3,13 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 3.0b4 - 2026-09-26
+
+- Fixed Box Buying stalling on the box's reveal card while the Quick Bar is up.
+- Delay Skill ReActivation setting added: holds a full gauge for a set time after each activation so a skill with a duration is not wasted.
+- Wait for Settle is now set in seconds instead of milliseconds.
+- Coronation Elsa skill improved and now usable.
+
 ## 3.0b3 - 2026-09-25
 
 - Fixed Unlock Level and Box Buying repeating back to back instead of waiting their set hours, and Unlock Level missing capped Tsums when the collection opened past its first page.

@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "3.0b3",
-  "Date": "2026-09-25 06:50:41",
-  "Hash": "27bdb3aca8b812f3a2d47cb842bd22d36f7f76de0a8cee82b80b4c41fbfb0ef5",
-  "File": "TsumTsum-Beta-3.0b3.zip",
-  "Message": "**Changes**\n1. Fixed Unlock Level and Box Buying repeating back to back instead of waiting their set hours, and Unlock Level missing capped Tsums when the collection opened past its first page.\n\n_Testing build -- please report anything odd._",
+  "Version": "3.0b4",
+  "Date": "2026-09-26 07:42:26",
+  "Hash": "adddd35ccf19fbcc54e0631b124c408aefcd6caee562100c30b3e604025d43b2",
+  "File": "TsumTsum-Beta-3.0b4.zip",
+  "Message": "**Changes**\n1. Fixed Box Buying stalling on the box's reveal card while the Quick Bar is up.\n2. Delay Skill ReActivation setting added: holds a full gauge for a set time after each activation so a skill with a duration is not wasted.\n3. Wait for Settle is now set in seconds instead of milliseconds.\n4. Coronation Elsa skill improved and now usable.\n\n_Testing build -- please report anything odd._",
   "MinHost": "2.0",
   "Versions": [
+    {
+      "Version": "3.0b4",
+      "Date": "2026-09-26 07:42:26",
+      "Hash": "adddd35ccf19fbcc54e0631b124c408aefcd6caee562100c30b3e604025d43b2",
+      "File": "TsumTsum-Beta-3.0b4.zip",
+      "MinHost": "2.0"
+    },
     {
       "Version": "3.0b3",
       "Date": "2026-09-25 06:50:41",
@@ -33,12 +40,6 @@
       "Date": "2026-09-20 07:14:20",
       "Hash": "fd20e1ebb85d03eba5fea50e9d60371d8710b5dde139c0005e5539b1ff9b8cf9",
       "File": "TsumTsum-Beta-2.1b2.zip"
-    },
-    {
-      "Version": "2.1",
-      "Date": "2026-09-20 02:52:16",
-      "Hash": "4236fb339a70c16c4cbb23f0b83c6fdef2a897f937bd19193ee81183ab925753",
-      "File": "TsumTsum-Beta-2.1.zip"
     }
   ]
 }
