@@ -1,6 +1,16 @@
-# Tsum Tsum Script
+# Tsum Tsum
 
 What shipped in each release, newest first. 
+## 3.0 - 2026-09-28
+
+- Wait for Settle setting added: once the gauge fills, waits up to 0.0-3.0s for the board to refill before firing the skill, so it goes off on a full board.
+- Delay Skill ReActivation setting added: holds a full gauge for a set time after each activation so a skill with a duration is not wasted.
+- Bubbles are no longer popped the moment they appear or right after a skill fires; the Bubble Strategy spends them once the board has refilled.
+- The next round starts about 3 seconds sooner after the score tally, with its count-up skipped whether or not round stats are on.
+- Box Buying can buy the Pick-Up Capsule, and no longer stalls on a box's reveal card while the Quick Bar is up.
+- Gaston and Coronation Elsa skills are now available.
+- Fixed Unlock Level and Box Buying repeating back to back instead of waiting their set hours, and Unlock Level missing capped Tsums when the collection opened past its first page.
+
 ## 2.0 - 2026-09-19
 
 - Version bump from 1.0 to 2.0
