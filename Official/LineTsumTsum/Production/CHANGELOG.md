@@ -1,6 +1,10 @@
 # Tsum Tsum
 
 What shipped in each release, newest first. 
+## 3.2 - 2026-10-01
+
+- Disney Villains (Set) rounds now record score and coins in the stats file, and work with Auto Unlock MyTsum Level.
+
 ## 3.1 - 2026-10-01
 
 - Sending hearts through the ranking is faster, and hearts sent without a "Heart sent!" popup are now counted.
