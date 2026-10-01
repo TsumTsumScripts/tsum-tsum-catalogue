@@ -1,6 +1,11 @@
 # Tsum Tsum
 
 What shipped in each release, newest first. 
+## 3.1 - 2026-10-01
+
+- Sending hearts through the ranking is faster, and hearts sent without a "Heart sent!" popup are now counted.
+- Disney Villains (Set) now plays properly.
+
 ## 3.0 - 2026-09-28
 
 - Wait for Settle setting added: once the gauge fills, waits up to 0.0-3.0s for the board to refill before firing the skill, so it goes off on a full board.

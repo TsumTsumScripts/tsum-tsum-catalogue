@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum",
-  "Version": "3.0",
-  "Date": "2026-09-28 20:13:20",
-  "Hash": "b9fa7c7998510a350fa2b9e15f8279201dd5c4f5b207b4e941de10c3729a7907",
-  "File": "TsumTsum-3.0.zip",
-  "Message": "**Changes**\n1. Wait for Settle setting added: once the gauge fills, waits up to 0.0-3.0s for the board to refill before firing the skill, so it goes off on a full board.\n2. Delay Skill ReActivation setting added: holds a full gauge for a set time after each activation so a skill with a duration is not wasted.\n3. Bubbles are no longer popped the moment they appear or right after a skill fires; the Bubble Strategy spends them once the board has refilled.\n4. The next round starts about 3 seconds sooner after the score tally, with its count-up skipped whether or not round stats are on.\n5. Box Buying can buy the Pick-Up Capsule, and no longer stalls on a box's reveal card while the Quick Bar is up.\n6. Gaston and Coronation Elsa skills are now available.\n7. Fixed Unlock Level and Box Buying repeating back to back instead of waiting their set hours, and Unlock Level missing capped Tsums when the collection opened past its first page.",
+  "Version": "3.1",
+  "Date": "2026-10-01 08:05:37",
+  "Hash": "1c3c6d47665a0c31319c7a651af74e26d33969e1c98428e427ead48f33102b49",
+  "File": "TsumTsum-3.1.zip",
+  "Message": "**Changes**\n1. Sending hearts through the ranking is faster, and hearts sent without a \"Heart sent!\" popup are now counted.\n2. Disney Villains (Set) now plays properly.",
   "MinHost": "2.0",
   "Versions": [
+    {
+      "Version": "3.1",
+      "Date": "2026-10-01 08:05:37",
+      "Hash": "1c3c6d47665a0c31319c7a651af74e26d33969e1c98428e427ead48f33102b49",
+      "File": "TsumTsum-3.1.zip",
+      "MinHost": "2.0"
+    },
     {
       "Version": "3.0",
       "Date": "2026-09-28 20:13:20",
