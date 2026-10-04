@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum",
-  "Version": "3.2",
-  "Date": "2026-10-01 17:25:46",
-  "Hash": "499eef8ee880abd308ccae7eb05c049e5332d3dead2b691674cdf518032333bc",
-  "File": "TsumTsum-3.2.zip",
-  "Message": "**Changes**\n1. Disney Villains (Set) rounds now record score and coins in the stats file, and work with Auto Unlock MyTsum Level.",
+  "Version": "4.0",
+  "Date": "2026-10-04 02:28:41",
+  "Hash": "7d2303e4215e83eae7b6000fb48ea9a4e84917c013173c6ddc38981993e946e2",
+  "File": "TsumTsum-4.0.zip",
+  "Message": "**Changes**\n1. Nightmare Before Christmas (Set) skill added.\n2. Stop after games setting added (General, and the Quick Bar's second page): after a set number of rounds, turn off Auto Play, pause or stop the script.\n3. Settings page reorganized: Skills, Round (chain limits and bonuses) and Hearts are the first three tabs, the run settings moved to General, and setting descriptions are shorter.\n4. Japanese (日本語) added as a language for the settings page, Quick Bar and log.\n5. Copy with settings list option added: a copied settings code can carry a short list of its skill type and the settings changed from default.\n6. Quick Bar gained a second page, switched by the dots beside Report: heart sending and one-by-one receiving, Unlock now, Copy settings code and the other bonus items; the coin readout can switch to round/run times.\n7. Round stats no longer lose the score and coins when the rank-up panel appears after a round, and base coins read more reliably.",
   "MinHost": "2.0",
   "Versions": [
+    {
+      "Version": "4.0",
+      "Date": "2026-10-04 02:28:41",
+      "Hash": "7d2303e4215e83eae7b6000fb48ea9a4e84917c013173c6ddc38981993e946e2",
+      "File": "TsumTsum-4.0.zip",
+      "MinHost": "2.0"
+    },
     {
       "Version": "3.2",
       "Date": "2026-10-01 17:25:46",
@@ -34,12 +41,6 @@
       "Date": "2026-09-19 20:41:35",
       "Hash": "01d2279b0910415fb1d200781225c498dbbf60a157ea33462afd79117a231609",
       "File": "TsumTsum-2.0.zip"
-    },
-    {
-      "Version": "1.0",
-      "Date": "2026-09-12 22:43:00",
-      "Hash": "f4a4ea90a2a6fb2e449bbbc3984d4a78b1bf34ffa3f71a93c45ce0040b7eefef",
-      "File": "TsumTsum-1.0.zip"
     }
   ]
 }
