@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Regenerates official.json by scanning every metadata.json under this
+# Regenerates catalogue.json by scanning every metadata.json under this
 # repo and copying its contents into the "Scripts" array. Each entry's
 # "File" field -- and every "File" inside its optional "Versions" list of
 # still-installable older builds -- is rewritten into the raw GitHub
@@ -8,7 +8,7 @@
 # and current branch.
 #
 # All metadata.json files are read once into memory, the array is built
-# up there, and official.json is (re)written once at the end.
+# up there, and catalogue.json is (re)written once at the end.
 #
 # Requires: jq (https://jqlang.org)
 
@@ -16,7 +16,7 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$SCRIPT_DIR"
-OFFICIAL_JSON="$REPO_ROOT/official.json"
+CATALOGUE_JSON="$REPO_ROOT/catalogue.json"
 
 if ! command -v jq >/dev/null 2>&1; then
   echo "Error: jq is required but was not found on PATH." >&2
@@ -140,18 +140,20 @@ while IFS= read -r meta; do
   entries+=("$entry")
 done < <(find "$REPO_ROOT" -type d -name .git -prune -o -type f -name 'metadata.json' -print | sort)
 
-name="Official GAP"
-if [ -f "$OFFICIAL_JSON" ]; then
-  existing_name="$(jq -r '.Name // empty' "$OFFICIAL_JSON" 2>/dev/null || true)"
+# The app installs into a folder named after this, so it must never change.
+# "Official GAP" is reserved: the app refuses a source that claims it.
+name="Tsum Tsum Scripts"
+if [ -f "$CATALOGUE_JSON" ]; then
+  existing_name="$(jq -r '.Name // empty' "$CATALOGUE_JSON" 2>/dev/null || true)"
   [ -n "$existing_name" ] && name="$existing_name"
 fi
 
 updated="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
 
 if [ "${#entries[@]}" -eq 0 ]; then
-  jq -n --arg name "$name" --arg updated "$updated" '{Name: $name, Updated: $updated, Scripts: []}' > "$OFFICIAL_JSON"
+  jq -n --arg name "$name" --arg updated "$updated" '{Name: $name, Updated: $updated, Scripts: []}' > "$CATALOGUE_JSON"
 else
-  printf '%s\n' "${entries[@]}" | jq -s --arg name "$name" --arg updated "$updated" '{Name: $name, Updated: $updated, Scripts: .}' > "$OFFICIAL_JSON"
+  printf '%s\n' "${entries[@]}" | jq -s --arg name "$name" --arg updated "$updated" '{Name: $name, Updated: $updated, Scripts: .}' > "$CATALOGUE_JSON"
 fi
 
-echo "Wrote ${#entries[@]} script(s) to $OFFICIAL_JSON"
+echo "Wrote ${#entries[@]} script(s) to $CATALOGUE_JSON"

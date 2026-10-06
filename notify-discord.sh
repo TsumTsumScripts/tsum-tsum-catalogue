@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Announces new releases on Discord. Compares the official.json that was
+# Announces new releases on Discord. Compares the catalogue.json that was
 # live before a deploy against the one just published and, for every
 # script whose "Version" changed (or that is new), posts one message to
 # the webhook with that script's "Message" -- its release notes -- as an

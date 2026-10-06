@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-Regenerates official.json by scanning every metadata.json under this
+Regenerates catalogue.json by scanning every metadata.json under this
 repo and copying its contents into the "Scripts" array. Each entry's
 "File" field -- and every "File" inside its optional "Versions" list of
 still-installable older builds -- is rewritten into the raw GitHub
@@ -8,13 +8,13 @@ download URL for that file, derived from the repo's own "origin" remote
 and current branch.
 
 All metadata.json files are read once into memory, the array is built
-up there, and official.json is (re)written once at the end.
+up there, and catalogue.json is (re)written once at the end.
 #>
 
 $ErrorActionPreference = 'Stop'
 
 $RepoRoot = $PSScriptRoot
-$OfficialJsonPath = Join-Path $RepoRoot 'official.json'
+$CatalogueJsonPath = Join-Path $RepoRoot 'catalogue.json'
 
 try {
     $remoteUrl = (git -C $RepoRoot config --get remote.origin.url 2>$null | Out-String).Trim()
@@ -84,10 +84,14 @@ foreach ($metaFile in $metadataFiles) {
     $scripts += $data
 }
 
-$name = 'Official GAP'
-if (Test-Path -LiteralPath $OfficialJsonPath) {
+# The app installs into a folder named after this, so it must never change.
+# "Official GAP" is reserved: the app refuses a source that claims it.
+# The app installs into a folder named after this, so it must never change.
+# "Official GAP" is reserved: the app refuses a source that claims it.
+$name = 'Tsum Tsum Scripts'
+if (Test-Path -LiteralPath $CatalogueJsonPath) {
     try {
-        $existing = Get-Content -LiteralPath $OfficialJsonPath -Raw | ConvertFrom-Json
+        $existing = Get-Content -LiteralPath $CatalogueJsonPath -Raw | ConvertFrom-Json
         if ($existing.Name) { $name = $existing.Name }
     } catch {}
 }
@@ -101,6 +105,6 @@ $result = [ordered]@{
 }
 
 $jsonText = $result | ConvertTo-Json -Depth 20
-[System.IO.File]::WriteAllText($OfficialJsonPath, $jsonText, (New-Object System.Text.UTF8Encoding($false)))
+[System.IO.File]::WriteAllText($CatalogueJsonPath, $jsonText, (New-Object System.Text.UTF8Encoding($false)))
 
-Write-Host "Wrote $($scripts.Count) script(s) to $OfficialJsonPath"
+Write-Host "Wrote $($scripts.Count) script(s) to $CatalogueJsonPath"

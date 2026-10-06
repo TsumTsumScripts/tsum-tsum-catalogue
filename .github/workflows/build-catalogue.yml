@@ -1,19 +1,19 @@
-name: Build official.json
+name: Build catalogue.json
 
 on:
   push:
-    branches: [main, master]
+    branches: [main]
     paths:
       - '**/metadata.json'
-      - 'build-official.sh'
+      - 'build-catalogue.sh'
       - 'notify-discord.sh'
-      - 'site/**'
-      - '.github/workflows/build-official.yml'
+      - '.github/workflows/build-catalogue.yml'
   workflow_dispatch:
 
-# official.json is never committed (see .gitignore) - it is generated here
-# and published to GitHub Pages, next to the getting-started page in site/.
-# The app reads official.json from the site root, so it stays at the root.
+# catalogue.json is never committed (see .gitignore) - it is generated here
+# and published to GitHub Pages. The GAP app lists it as a built-in library
+# source at https://tsumtsumscripts.github.io/tsum-tsum-catalogue/catalogue.json,
+# so its path must not change.
 permissions:
   contents: read
   pages: write
@@ -38,26 +38,25 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Build official.json
-        run: bash build-official.sh
+      - name: Build catalogue.json
+        run: bash build-catalogue.sh
 
       - name: Stage site
         run: |
           mkdir -p _site
-          cp -R site/. _site/
-          cp official.json _site/official.json
+          cp catalogue.json _site/catalogue.json
 
       # Snapshot what is live before this deploy replaces it, so the Discord
       # step can tell which script versions are new. The query string gets
       # past the Pages CDN cache. If it can't be fetched, the announcement
       # is skipped rather than re-announcing every script.
-      - name: Fetch live official.json
+      - name: Fetch live catalogue.json
         env:
           BASE_URL: ${{ steps.pages.outputs.base_url }}
         run: |
-          if ! curl -fsSL -o live-official.json "$BASE_URL/official.json?t=$(date +%s)"; then
-            rm -f live-official.json
-            echo "::warning::Could not fetch the live official.json; the Discord announcement will be skipped."
+          if ! curl -fsSL -o live-catalogue.json "$BASE_URL/catalogue.json?t=$(date +%s)"; then
+            rm -f live-catalogue.json
+            echo "::warning::Could not fetch the live catalogue.json; the Discord announcement will be skipped."
           fi
 
       - name: Upload artifact
@@ -70,7 +69,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
       - name: Announce on Discord
-        if: hashFiles('live-official.json') != ''
+        if: hashFiles('live-catalogue.json') != ''
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: bash notify-discord.sh live-official.json official.json "${{ steps.deployment.outputs.page_url }}"
+        run: bash notify-discord.sh live-catalogue.json catalogue.json "${{ steps.deployment.outputs.page_url }}"
