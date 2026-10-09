@@ -3,6 +3,12 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 5.0b3 - 2026-10-09
+
+**Additions**
+*Presets*
+- Pasting a preset export into the Code box saves its presets (a single line also applies it).
+
 ## 5.0b2 - 2026-10-09
 
 **Additions**
