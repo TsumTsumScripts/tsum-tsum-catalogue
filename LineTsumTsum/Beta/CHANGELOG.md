@@ -3,6 +3,15 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 5.0b2 - 2026-10-09
+
+**Additions**
+*Quick Bar and settings*
+- The Aa button opens Appearance: pick the style (Accessible or Felt), theme (Dark, Light or Device) and size (XS to L); Accessible now starts at Small.
+
+**Fixes**
+- Quick Bar dropdown labels (Preset, Bubble, Then) are no longer cut off at the top.
+
 ## 5.0b1 - 2026-10-09
 
 **Additions**
