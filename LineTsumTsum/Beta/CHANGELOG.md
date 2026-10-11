@@ -3,6 +3,15 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 5.0b4 - 2026-10-11
+
+**Additions**
+*Debug*
+- Copy debug info button: copies your device details and every setting, to paste when asking for help.
+
+**Fixes**
+- Receiving mail one by one no longer crashes the game after a couple of minutes on low-memory emulators.
+
 ## 5.0b3 - 2026-10-09
 
 **Additions**
