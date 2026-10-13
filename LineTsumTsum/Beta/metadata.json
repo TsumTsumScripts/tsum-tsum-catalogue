@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "5.0b5",
-  "Date": "2026-10-13 02:51:38",
-  "Hash": "8ba8e4f035251c2fa86af5de5dab4843a06b6c1bee7e481f59220a2eaa35d2aa",
-  "File": "TsumTsum-Beta-5.0b5.zip",
-  "Message": "**Fixes**\n- Bonus items no longer get scrambled when an event (JP) gives a free item that cannot be turned off.\n- Cinderella's skill clears far more: its strokes are drawn slowly enough for the game to follow, stay on the board, and fill her skill time at every level.\n\n_Testing build -- please report anything odd._",
+  "Version": "5.0b6",
+  "Date": "2026-10-13 22:14:50",
+  "Hash": "ced483f53fc09a7966b0ea1258676b1b6eba9da0e1e91fdd65952503b58f3490",
+  "File": "TsumTsum-Beta-5.0b6.zip",
+  "Message": "**Fixes**\n- Sending hearts through the ranking is about 15% faster.\n\n_Testing build -- please report anything odd._",
   "MinHost": "3.1",
   "Versions": [
+    {
+      "Version": "5.0b6",
+      "Date": "2026-10-13 22:14:50",
+      "Hash": "ced483f53fc09a7966b0ea1258676b1b6eba9da0e1e91fdd65952503b58f3490",
+      "File": "TsumTsum-Beta-5.0b6.zip",
+      "MinHost": "3.1"
+    },
     {
       "Version": "5.0b5",
       "Date": "2026-10-13 02:51:38",
@@ -34,13 +41,6 @@
       "Date": "2026-10-09 14:42:29",
       "Hash": "a941edc10742458720082cf317f36bb273e2671f6190e8a8a6afb6007bcac711",
       "File": "TsumTsum-Beta-5.0b2.zip",
-      "MinHost": "3.1"
-    },
-    {
-      "Version": "5.0b1",
-      "Date": "2026-10-09 00:33:37",
-      "Hash": "4f841c08a420fadedd8d75b5a5acd4ed7ea842905b37977293d9ef1d12971909",
-      "File": "TsumTsum-Beta-5.0b1.zip",
       "MinHost": "3.1"
     }
   ]

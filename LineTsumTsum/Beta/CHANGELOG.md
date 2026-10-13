@@ -3,6 +3,11 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 5.0b6 - 2026-10-13
+
+**Fixes**
+- Sending hearts through the ranking is about 15% faster.
+
 ## 5.0b5 - 2026-10-13
 
 **Fixes**
