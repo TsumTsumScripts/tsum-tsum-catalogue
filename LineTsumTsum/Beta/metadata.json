@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "5.0b4",
-  "Date": "2026-10-11 08:33:39",
-  "Hash": "04ec20b0e1bd3534136692cca6cbeba6baf679a5f2d233dd888d133a02b597b6",
-  "File": "TsumTsum-Beta-5.0b4.zip",
-  "Message": "**Additions**\n*Debug*\n- Copy debug info button: copies your device details and every setting, to paste when asking for help.\n\n**Fixes**\n- Receiving mail one by one no longer crashes the game after a couple of minutes on low-memory emulators.\n\n_Testing build -- please report anything odd._",
+  "Version": "5.0b5",
+  "Date": "2026-10-13 02:51:38",
+  "Hash": "8ba8e4f035251c2fa86af5de5dab4843a06b6c1bee7e481f59220a2eaa35d2aa",
+  "File": "TsumTsum-Beta-5.0b5.zip",
+  "Message": "**Fixes**\n- Bonus items no longer get scrambled when an event (JP) gives a free item that cannot be turned off.\n- Cinderella's skill clears far more: its strokes are drawn slowly enough for the game to follow, stay on the board, and fill her skill time at every level.\n\n_Testing build -- please report anything odd._",
   "MinHost": "3.1",
   "Versions": [
+    {
+      "Version": "5.0b5",
+      "Date": "2026-10-13 02:51:38",
+      "Hash": "8ba8e4f035251c2fa86af5de5dab4843a06b6c1bee7e481f59220a2eaa35d2aa",
+      "File": "TsumTsum-Beta-5.0b5.zip",
+      "MinHost": "3.1"
+    },
     {
       "Version": "5.0b4",
       "Date": "2026-10-11 08:33:39",

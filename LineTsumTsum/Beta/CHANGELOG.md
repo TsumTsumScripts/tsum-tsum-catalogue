@@ -3,6 +3,12 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 5.0b5 - 2026-10-13
+
+**Fixes**
+- Bonus items no longer get scrambled when an event (JP) gives a free item that cannot be turned off.
+- Cinderella's skill clears far more: its strokes are drawn slowly enough for the game to follow, stay on the board, and fill her skill time at every level.
+
 ## 5.0b4 - 2026-10-11
 
 **Additions**
