@@ -1,6 +1,15 @@
 # Tsum Tsum
 
 What shipped in each release, newest first. 
+## 6.0a3 - 2026-10-13
+
+**Additions**
+*GAP Companion*
+- Some GAP Companion features now come as add-ons, sent to the accounts that have them.
+
+**Fixes**
+- Bonus items no longer get scrambled when an event (JP) gives a free item that cannot be turned off.
+
 ## 4.0 - 2026-10-04
 
 - Nightmare Before Christmas (Set) skill added.
