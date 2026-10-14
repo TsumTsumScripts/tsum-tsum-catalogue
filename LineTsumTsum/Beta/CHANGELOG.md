@@ -3,6 +3,16 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 5.0b7 - 2026-10-14
+
+**Additions**
+*Starter tool*
+- On Windows the starter logs each run to starter-log.txt and stays open on an error, so a window that closed straight away can be diagnosed.
+- The starter page has a Stop button, so the tool no longer has to be closed with Ctrl+C or by closing its window.
+
+**Fixes**
+- Sending hearts on the Japanese game no longer stalls about 5 seconds after every heart.
+
 ## 5.0b6 - 2026-10-13
 
 **Fixes**

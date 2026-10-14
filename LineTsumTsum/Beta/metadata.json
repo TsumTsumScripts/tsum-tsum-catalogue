@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "5.0b6",
-  "Date": "2026-10-13 22:14:50",
-  "Hash": "ced483f53fc09a7966b0ea1258676b1b6eba9da0e1e91fdd65952503b58f3490",
-  "File": "TsumTsum-Beta-5.0b6.zip",
-  "Message": "**Fixes**\n- Sending hearts through the ranking is about 15% faster.\n\n_Testing build -- please report anything odd._",
+  "Version": "5.0b7",
+  "Date": "2026-10-14 06:14:28",
+  "Hash": "6d596584a63b17697e0fe66848dd4d4c117a6f6b7c6375deb85f98a05b950c4e",
+  "File": "TsumTsum-Beta-5.0b7.zip",
+  "Message": "**Additions**\n*Starter tool*\n- On Windows the starter logs each run to starter-log.txt and stays open on an error, so a window that closed straight away can be diagnosed.\n- The starter page has a Stop button, so the tool no longer has to be closed with Ctrl+C or by closing its window.\n\n**Fixes**\n- Sending hearts on the Japanese game no longer stalls about 5 seconds after every heart.\n\n_Testing build -- please report anything odd._",
   "MinHost": "3.1",
   "Versions": [
+    {
+      "Version": "5.0b7",
+      "Date": "2026-10-14 06:14:28",
+      "Hash": "6d596584a63b17697e0fe66848dd4d4c117a6f6b7c6375deb85f98a05b950c4e",
+      "File": "TsumTsum-Beta-5.0b7.zip",
+      "MinHost": "3.1"
+    },
     {
       "Version": "5.0b6",
       "Date": "2026-10-13 22:14:50",
@@ -34,13 +41,6 @@
       "Date": "2026-10-09 23:24:57",
       "Hash": "cb224119bb43d6346c94f26db64ae5e27d5f0184159597d48dc8c24969fa0025",
       "File": "TsumTsum-Beta-5.0b3.zip",
-      "MinHost": "3.1"
-    },
-    {
-      "Version": "5.0b2",
-      "Date": "2026-10-09 14:42:29",
-      "Hash": "a941edc10742458720082cf317f36bb273e2671f6190e8a8a6afb6007bcac711",
-      "File": "TsumTsum-Beta-5.0b2.zip",
       "MinHost": "3.1"
     }
   ]
