@@ -3,6 +3,11 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 5.0b8 - 2026-10-14
+
+**Fixes**
+- Sending hearts on a slow connection waits out the game's loading and timeout error instead of skipping the rest of the ranking.
+
 ## 5.0b7 - 2026-10-14
 
 **Additions**
