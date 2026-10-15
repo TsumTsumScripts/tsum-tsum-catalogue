@@ -3,6 +3,12 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 5.0b9 - 2026-10-15
+
+**Additions**
+*Boxes*
+- Buy open capsule box until sold out: open a capsule in the store yourself (such as the JP one on the store's second page), press Now, and it is bought one at a time until it is gone.
+
 ## 5.0b8 - 2026-10-14
 
 **Fixes**

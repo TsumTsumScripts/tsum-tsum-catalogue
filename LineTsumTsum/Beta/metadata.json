@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "5.0b8",
-  "Date": "2026-10-14 18:02:36",
-  "Hash": "f14c5d394aec021176787c865795033f796c2955e86fdb406d1aee6be1c0445f",
-  "File": "TsumTsum-Beta-5.0b8.zip",
-  "Message": "**Fixes**\n- Sending hearts on a slow connection waits out the game's loading and timeout error instead of skipping the rest of the ranking.\n\n_Testing build -- please report anything odd._",
+  "Version": "5.0b9",
+  "Date": "2026-10-15 05:24:59",
+  "Hash": "0a7cc2d5e1a1c391a19f9830724bb5cff12d2194f705eb447c90347664287d4b",
+  "File": "TsumTsum-Beta-5.0b9.zip",
+  "Message": "**Additions**\n*Boxes*\n- Buy open capsule box until sold out: open a capsule in the store yourself (such as the JP one on the store's second page), press Now, and it is bought one at a time until it is gone.\n\n_Testing build -- please report anything odd._",
   "MinHost": "3.1",
   "Versions": [
+    {
+      "Version": "5.0b9",
+      "Date": "2026-10-15 05:24:59",
+      "Hash": "0a7cc2d5e1a1c391a19f9830724bb5cff12d2194f705eb447c90347664287d4b",
+      "File": "TsumTsum-Beta-5.0b9.zip",
+      "MinHost": "3.1"
+    },
     {
       "Version": "5.0b8",
       "Date": "2026-10-14 18:02:36",
@@ -34,13 +41,6 @@
       "Date": "2026-10-13 02:51:38",
       "Hash": "8ba8e4f035251c2fa86af5de5dab4843a06b6c1bee7e481f59220a2eaa35d2aa",
       "File": "TsumTsum-Beta-5.0b5.zip",
-      "MinHost": "3.1"
-    },
-    {
-      "Version": "5.0b4",
-      "Date": "2026-10-11 08:33:39",
-      "Hash": "04ec20b0e1bd3534136692cca6cbeba6baf679a5f2d233dd888d133a02b597b6",
-      "File": "TsumTsum-Beta-5.0b4.zip",
       "MinHost": "3.1"
     }
   ]
