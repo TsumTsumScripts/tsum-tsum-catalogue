@@ -3,6 +3,11 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 5.0b10 - 2026-10-15
+
+**Fixes**
+- Auto launch no longer waits 30 seconds for a game that is already open on MuMu (Android 15).
+
 ## 5.0b9 - 2026-10-15
 
 **Additions**

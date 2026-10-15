@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "5.0b9",
-  "Date": "2026-10-15 05:24:59",
-  "Hash": "0a7cc2d5e1a1c391a19f9830724bb5cff12d2194f705eb447c90347664287d4b",
-  "File": "TsumTsum-Beta-5.0b9.zip",
-  "Message": "**Additions**\n*Boxes*\n- Buy open capsule box until sold out: open a capsule in the store yourself (such as the JP one on the store's second page), press Now, and it is bought one at a time until it is gone.\n\n_Testing build -- please report anything odd._",
-  "MinHost": "3.1",
+  "Version": "5.0b10",
+  "Date": "2026-10-15 19:28:08",
+  "Hash": "cb97e9b453f65a4a3975668474deb1c1206dcc9b909f47d613761ca5b73bc322",
+  "File": "TsumTsum-Beta-5.0b10.zip",
+  "Message": "**Fixes**\n- Auto launch no longer waits 30 seconds for a game that is already open on MuMu (Android 15).\n\n_Testing build -- please report anything odd._",
+  "MinHost": "3.3",
   "Versions": [
+    {
+      "Version": "5.0b10",
+      "Date": "2026-10-15 19:28:08",
+      "Hash": "cb97e9b453f65a4a3975668474deb1c1206dcc9b909f47d613761ca5b73bc322",
+      "File": "TsumTsum-Beta-5.0b10.zip",
+      "MinHost": "3.3"
+    },
     {
       "Version": "5.0b9",
       "Date": "2026-10-15 05:24:59",
@@ -34,13 +41,6 @@
       "Date": "2026-10-13 22:14:50",
       "Hash": "ced483f53fc09a7966b0ea1258676b1b6eba9da0e1e91fdd65952503b58f3490",
       "File": "TsumTsum-Beta-5.0b6.zip",
-      "MinHost": "3.1"
-    },
-    {
-      "Version": "5.0b5",
-      "Date": "2026-10-13 02:51:38",
-      "Hash": "8ba8e4f035251c2fa86af5de5dab4843a06b6c1bee7e481f59220a2eaa35d2aa",
-      "File": "TsumTsum-Beta-5.0b5.zip",
       "MinHost": "3.1"
     }
   ]
