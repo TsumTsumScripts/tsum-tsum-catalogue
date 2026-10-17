@@ -1,6 +1,12 @@
 # Tsum Tsum
 
 What shipped in each release, newest first. 
+## 5.1 - 2026-10-17
+
+**Additions**
+*Skills*
+- Disney Villains (Set) skill is out of beta.
+
 ## 5.0 - 2026-10-17
 
 **Additions**
