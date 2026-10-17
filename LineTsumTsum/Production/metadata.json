@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum",
-  "Version": "4.0",
-  "Date": "2026-10-04 02:28:41",
-  "Hash": "7d2303e4215e83eae7b6000fb48ea9a4e84917c013173c6ddc38981993e946e2",
-  "File": "TsumTsum-4.0.zip",
-  "Message": "**Changes**\n1. Nightmare Before Christmas (Set) skill added.\n2. Stop after games setting added (General, and the Quick Bar's second page): after a set number of rounds, turn off Auto Play, pause or stop the script.\n3. Settings page reorganized: Skills, Round (chain limits and bonuses) and Hearts are the first three tabs, the run settings moved to General, and setting descriptions are shorter.\n4. Japanese (日本語) added as a language for the settings page, Quick Bar and log.\n5. Copy with settings list option added: a copied settings code can carry a short list of its skill type and the settings changed from default.\n6. Quick Bar gained a second page, switched by the dots beside Report: heart sending and one-by-one receiving, Unlock now, Copy settings code and the other bonus items; the coin readout can switch to round/run times.\n7. Round stats no longer lose the score and coins when the rank-up panel appears after a round, and base coins read more reliably.",
-  "MinHost": "2.0",
+  "Version": "5.0",
+  "Date": "2026-10-17 02:14:26",
+  "Hash": "2e3706af8a2c217b153f3f99e2b77a86b6a58bf0fe42766a1f0ade4ff955966f",
+  "File": "TsumTsum-5.0.zip",
+  "Message": "**Additions**\n*Skills*\n- Large tsums are recognised and chained.\n- Nightmare Before Christmas (Set) improved: Oogie Boogie's dice are rerolled only under 7, and shrinking tsums are tracked better.\n*Bubbles*\n- Bottom-row bubbles are popped faster, and Mid Chain strategies no longer let them pile up.\n- New Save One and Save One Mid Chain strategies.\n*Run control*\n- Game Region setting: choose whether the International or Japanese Tsum Tsum is launched when both are installed.\n- Quick Bar \"Last round\" button, and an Auto Play toggle replacing Report.\n- Auto Play Game moved to the Round tab; app restart frequency is in minutes, under Device (a saved value in hours is converted).\n*Quick Bar and settings*\n- New Accessible style, now the default: larger text and buttons, high contrast and a light Quick Bar. The felt look from the website is the other style, with cream and midnight themes.\n- The Aa button opens Appearance: style, theme (Dark, Light or Device) and size (XS to L).\n- A Code button copies the settings code, and Copy with settings list is now on by default.\n- Pasting a preset export into the Code box saves its presets (a single line also applies it).\n- Tap the Quick Bar readout to copy the run's figures.\n- Copy debug info button: copies your device details and every setting, to paste when asking for help.\n*Starter tool*\n- The starter tool is now a page in your browser: start the service, install the app, restart adb, and export logs and stats as one zip, with Tsum Tsum Stats built in.\n- It asks GAP to add the Tsum Tsum library to its Sources, keeps itself and Tsum Tsum Stats up to date, and has a Stop button.\n- On Windows it logs each run to starter-log.txt and stays open on an error.\n*Platform and data*\n- Requires General Automation Platform 3.3 or newer.\n- Each device keeps its own folder, so emulators sharing storage stop overwriting each other's files.\n- Receiving hearts one by one always skips the ad mail; Skip first person is gone.\n- Unlock Level jumps straight to the collection's first page.\n\n**Fixes**\n- Chains no longer break in a round's last seconds.\n- Cinderella's skill now works with GAP.\n- Resuming after a pause presses Continue instead of sometimes Try Again.\n- Auto Unlock MyTsum Level raises a capped single-tsum party.\n- Sending hearts is about 15% faster, no longer stalls after every heart on the Japanese game, and waits out a slow connection instead of skipping the rest of the ranking.\n- Receiving hearts one by one no longer spins on the ad row, and no longer crashes the game on low-memory emulators such as MuMu Player.\n- Bonus items no longer get scrambled when an event (JP) gives a free item that cannot be turned off.\n- Box Buying no longer stalls on the JP build when a maxed-out Pick-Up Capsule pays out a Premium Ticket.\n- Auto launch no longer waits 30 seconds for a game that is already open on MuMu (Android 15).\n- Quick Bar dropdown labels (Preset, Bubble, Then) are no longer cut off at the top.\n- The starter finds GAP again after its rename to General Automation Platform, and on Windows choosing a device no longer fails with \"Write-NextStep is not recognized\".",
+  "MinHost": "3.3",
   "Versions": [
+    {
+      "Version": "5.0",
+      "Date": "2026-10-17 02:14:26",
+      "Hash": "2e3706af8a2c217b153f3f99e2b77a86b6a58bf0fe42766a1f0ade4ff955966f",
+      "File": "TsumTsum-5.0.zip",
+      "MinHost": "3.3"
+    },
     {
       "Version": "4.0",
       "Date": "2026-10-04 02:28:41",
@@ -35,12 +42,6 @@
       "Hash": "b9fa7c7998510a350fa2b9e15f8279201dd5c4f5b207b4e941de10c3729a7907",
       "File": "TsumTsum-3.0.zip",
       "MinHost": "2.0"
-    },
-    {
-      "Version": "2.0",
-      "Date": "2026-09-19 20:41:35",
-      "Hash": "01d2279b0910415fb1d200781225c498dbbf60a157ea33462afd79117a231609",
-      "File": "TsumTsum-2.0.zip"
     }
   ]
 }
