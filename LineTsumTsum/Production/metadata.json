@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum",
-  "Version": "5.2",
-  "Date": "2026-10-17 19:21:47",
-  "Hash": "102a7a08dd2cfd4c0b1783e1152672c35411aa1b630e500215e905d252857236",
-  "File": "TsumTsum-5.2.zip",
-  "Message": "**Fixes**\n- Page history no longer saves screenshots unless \"Debug game\" is on.",
+  "Version": "5.3",
+  "Date": "2026-10-17 20:14:51",
+  "Hash": "af4aeac844ad072c18d5f551e5faedd3a2d7a1a61139cfe374dfe69b55993c1c",
+  "File": "TsumTsum-5.3.zip",
+  "Message": "**Additions**\n*Settings*\n- Buy Open Capsule and Export Tsum List are out of beta.",
   "MinHost": "3.3",
   "Versions": [
+    {
+      "Version": "5.3",
+      "Date": "2026-10-17 20:14:51",
+      "Hash": "af4aeac844ad072c18d5f551e5faedd3a2d7a1a61139cfe374dfe69b55993c1c",
+      "File": "TsumTsum-5.3.zip",
+      "MinHost": "3.3"
+    },
     {
       "Version": "5.2",
       "Date": "2026-10-17 19:21:47",
@@ -34,13 +41,6 @@
       "Date": "2026-10-04 02:28:41",
       "Hash": "7d2303e4215e83eae7b6000fb48ea9a4e84917c013173c6ddc38981993e946e2",
       "File": "TsumTsum-4.0.zip",
-      "MinHost": "2.0"
-    },
-    {
-      "Version": "3.2",
-      "Date": "2026-10-01 17:25:46",
-      "Hash": "499eef8ee880abd308ccae7eb05c049e5332d3dead2b691674cdf518032333bc",
-      "File": "TsumTsum-3.2.zip",
       "MinHost": "2.0"
     }
   ]

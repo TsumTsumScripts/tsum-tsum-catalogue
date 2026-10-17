@@ -1,6 +1,12 @@
 # Tsum Tsum
 
 What shipped in each release, newest first. 
+## 5.3 - 2026-10-17
+
+**Additions**
+*Settings*
+- Buy Open Capsule and Export Tsum List are out of beta.
+
 ## 5.2 - 2026-10-17
 
 **Fixes**
