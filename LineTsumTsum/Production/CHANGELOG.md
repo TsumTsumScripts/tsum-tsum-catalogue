@@ -1,6 +1,11 @@
 # Tsum Tsum
 
 What shipped in each release, newest first. 
+## 5.2 - 2026-10-17
+
+**Fixes**
+- Page history no longer saves screenshots unless "Debug game" is on.
+
 ## 5.1 - 2026-10-17
 
 **Additions**

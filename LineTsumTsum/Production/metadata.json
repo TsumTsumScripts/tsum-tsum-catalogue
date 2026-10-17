@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum",
-  "Version": "5.1",
-  "Date": "2026-10-17 17:13:32",
-  "Hash": "ec6183f50269f3370564f04d58b44d6bb10cb4b40a7c601bcdf895bec87fe4ef",
-  "File": "TsumTsum-5.1.zip",
-  "Message": "**Additions**\n*Skills*\n- Disney Villains (Set) skill is out of beta.",
+  "Version": "5.2",
+  "Date": "2026-10-17 19:21:47",
+  "Hash": "102a7a08dd2cfd4c0b1783e1152672c35411aa1b630e500215e905d252857236",
+  "File": "TsumTsum-5.2.zip",
+  "Message": "**Fixes**\n- Page history no longer saves screenshots unless \"Debug game\" is on.",
   "MinHost": "3.3",
   "Versions": [
+    {
+      "Version": "5.2",
+      "Date": "2026-10-17 19:21:47",
+      "Hash": "102a7a08dd2cfd4c0b1783e1152672c35411aa1b630e500215e905d252857236",
+      "File": "TsumTsum-5.2.zip",
+      "MinHost": "3.3"
+    },
     {
       "Version": "5.1",
       "Date": "2026-10-17 17:13:32",
@@ -34,13 +41,6 @@
       "Date": "2026-10-01 17:25:46",
       "Hash": "499eef8ee880abd308ccae7eb05c049e5332d3dead2b691674cdf518032333bc",
       "File": "TsumTsum-3.2.zip",
-      "MinHost": "2.0"
-    },
-    {
-      "Version": "3.1",
-      "Date": "2026-10-01 08:05:37",
-      "Hash": "1c3c6d47665a0c31319c7a651af74e26d33969e1c98428e427ead48f33102b49",
-      "File": "TsumTsum-3.1.zip",
       "MinHost": "2.0"
     }
   ]
