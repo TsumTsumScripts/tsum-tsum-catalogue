@@ -1,6 +1,12 @@
 # Tsum Tsum
 
 What shipped in each release, newest first. 
+## 5.4 - 2026-10-20
+
+**Additions**
+*Stats*
+- Share round stats is available to everyone: it adds your rounds to the global Tsum Tsum Stats site without the starter.
+
 ## 5.3 - 2026-10-17
 
 **Additions**

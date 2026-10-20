@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum",
-  "Version": "5.3",
-  "Date": "2026-10-17 20:14:51",
-  "Hash": "af4aeac844ad072c18d5f551e5faedd3a2d7a1a61139cfe374dfe69b55993c1c",
-  "File": "TsumTsum-5.3.zip",
-  "Message": "**Additions**\n*Settings*\n- Buy Open Capsule and Export Tsum List are out of beta.",
+  "Version": "5.4",
+  "Date": "2026-10-20 06:54:12",
+  "Hash": "1e58a7a204561893c1ec6a24dd5a5d0041054ccb4d92e3572abfd0c2a048d114",
+  "File": "TsumTsum-5.4.zip",
+  "Message": "**Additions**\n*Stats*\n- Share round stats is available to everyone: it adds your rounds to the global Tsum Tsum Stats site without the starter.",
   "MinHost": "3.3",
   "Versions": [
+    {
+      "Version": "5.4",
+      "Date": "2026-10-20 06:54:12",
+      "Hash": "1e58a7a204561893c1ec6a24dd5a5d0041054ccb4d92e3572abfd0c2a048d114",
+      "File": "TsumTsum-5.4.zip",
+      "MinHost": "3.3"
+    },
     {
       "Version": "5.3",
       "Date": "2026-10-17 20:14:51",
@@ -35,13 +42,6 @@
       "Hash": "2e3706af8a2c217b153f3f99e2b77a86b6a58bf0fe42766a1f0ade4ff955966f",
       "File": "TsumTsum-5.0.zip",
       "MinHost": "3.3"
-    },
-    {
-      "Version": "4.0",
-      "Date": "2026-10-04 02:28:41",
-      "Hash": "7d2303e4215e83eae7b6000fb48ea9a4e84917c013173c6ddc38981993e946e2",
-      "File": "TsumTsum-4.0.zip",
-      "MinHost": "2.0"
     }
   ]
 }
