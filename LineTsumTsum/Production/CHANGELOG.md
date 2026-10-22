@@ -1,6 +1,15 @@
 # Tsum Tsum
 
 What shipped in each release, newest first. 
+## 5.5 - 2026-10-22
+
+**Additions**
+*Quick Bar and settings*
+- Copy code on the Quick Bar can now be tapped while the script is running.
+
+**Fixes**
+- Box Buying now finds the Select Box in the Japanese game, where it can be the last of three boxes shown.
+
 ## 5.4 - 2026-10-20
 
 **Additions**

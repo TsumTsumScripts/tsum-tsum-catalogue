@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum",
-  "Version": "5.4",
-  "Date": "2026-10-20 06:54:12",
-  "Hash": "1e58a7a204561893c1ec6a24dd5a5d0041054ccb4d92e3572abfd0c2a048d114",
-  "File": "TsumTsum-5.4.zip",
-  "Message": "**Additions**\n*Stats*\n- Share round stats is available to everyone: it adds your rounds to the global Tsum Tsum Stats site without the starter.",
+  "Version": "5.5",
+  "Date": "2026-10-22 07:01:45",
+  "Hash": "2bba5970d23ceeea2a960d5bc769c1e5c04c0626ba5e14a7f79cd2033f393c53",
+  "File": "TsumTsum-5.5.zip",
+  "Message": "**Additions**\n*Quick Bar and settings*\n- Copy code on the Quick Bar can now be tapped while the script is running.\n\n**Fixes**\n- Box Buying now finds the Select Box in the Japanese game, where it can be the last of three boxes shown.",
   "MinHost": "3.3",
   "Versions": [
+    {
+      "Version": "5.5",
+      "Date": "2026-10-22 07:01:45",
+      "Hash": "2bba5970d23ceeea2a960d5bc769c1e5c04c0626ba5e14a7f79cd2033f393c53",
+      "File": "TsumTsum-5.5.zip",
+      "MinHost": "3.3"
+    },
     {
       "Version": "5.4",
       "Date": "2026-10-20 06:54:12",
@@ -34,13 +41,6 @@
       "Date": "2026-10-17 17:13:32",
       "Hash": "ec6183f50269f3370564f04d58b44d6bb10cb4b40a7c601bcdf895bec87fe4ef",
       "File": "TsumTsum-5.1.zip",
-      "MinHost": "3.3"
-    },
-    {
-      "Version": "5.0",
-      "Date": "2026-10-17 02:14:26",
-      "Hash": "2e3706af8a2c217b153f3f99e2b77a86b6a58bf0fe42766a1f0ade4ff955966f",
-      "File": "TsumTsum-5.0.zip",
       "MinHost": "3.3"
     }
   ]
