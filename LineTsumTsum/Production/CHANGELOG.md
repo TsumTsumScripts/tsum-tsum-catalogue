@@ -1,6 +1,11 @@
 # Tsum Tsum
 
 What shipped in each release, newest first. 
+## 5.6 - 2026-10-24
+
+**Fixes**
+- Receiving mail one by one no longer restarts the game over and over on emulators with little free memory.
+
 ## 5.5 - 2026-10-22
 
 **Additions**

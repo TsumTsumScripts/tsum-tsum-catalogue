@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum",
-  "Version": "5.5",
-  "Date": "2026-10-22 07:01:45",
-  "Hash": "2bba5970d23ceeea2a960d5bc769c1e5c04c0626ba5e14a7f79cd2033f393c53",
-  "File": "TsumTsum-5.5.zip",
-  "Message": "**Additions**\n*Quick Bar and settings*\n- Copy code on the Quick Bar can now be tapped while the script is running.\n\n**Fixes**\n- Box Buying now finds the Select Box in the Japanese game, where it can be the last of three boxes shown.",
+  "Version": "5.6",
+  "Date": "2026-10-24 17:54:21",
+  "Hash": "caac251b96ef9c202c3f47fcb944184030d7f768de850a3721542ba57964afca",
+  "File": "TsumTsum-5.6.zip",
+  "Message": "**Fixes**\n- Receiving mail one by one no longer restarts the game over and over on emulators with little free memory.",
   "MinHost": "3.3",
   "Versions": [
+    {
+      "Version": "5.6",
+      "Date": "2026-10-24 17:54:21",
+      "Hash": "caac251b96ef9c202c3f47fcb944184030d7f768de850a3721542ba57964afca",
+      "File": "TsumTsum-5.6.zip",
+      "MinHost": "3.3"
+    },
     {
       "Version": "5.5",
       "Date": "2026-10-22 07:01:45",
@@ -34,13 +41,6 @@
       "Date": "2026-10-17 19:21:47",
       "Hash": "102a7a08dd2cfd4c0b1783e1152672c35411aa1b630e500215e905d252857236",
       "File": "TsumTsum-5.2.zip",
-      "MinHost": "3.3"
-    },
-    {
-      "Version": "5.1",
-      "Date": "2026-10-17 17:13:32",
-      "Hash": "ec6183f50269f3370564f04d58b44d6bb10cb4b40a7c601bcdf895bec87fe4ef",
-      "File": "TsumTsum-5.1.zip",
       "MinHost": "3.3"
     }
   ]
