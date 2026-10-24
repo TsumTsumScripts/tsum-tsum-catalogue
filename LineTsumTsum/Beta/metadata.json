@@ -1,0 +1,19 @@
+{
+  "Game": "Tsum Tsum",
+  "Name": "Tsum Tsum - BETA",
+  "Version": "6.0b1",
+  "Date": "2026-10-24 06:11:41",
+  "Hash": "14c8bced1f81ac9448db09a338a9b8830186dd30f50176c3141534d382f94237",
+  "File": "TsumTsum-Beta-6.0b1.zip",
+  "Message": "**Additions**\n*Play*\n- Faster play: shorter taps, quicker large Tsum detection, and less waiting between chains, between rounds, and while sending hearts and opening mail.\n*Skills*\n- Colorful Mickey (Set) skill added (Beta).\n- Auto Set Skill Level added: takes the skill level from your Tsum List for the selected MyTsum, warns before the run if the list is missing or a week old, and follows tsum changes made during a pause.\n- Rapunzel+ skill improved: bubbles no longer pop around her activation, her chain no longer runs into dead ends or tsums still clearing, draws faster, and starts from a lantern when one is on the board.\n- Cinderella skill improved: her strokes steer round tsums still clearing from the last one.\n*GAP Companion*\n- Your phone is notified when a run stops after its round (with that round's score and coins) and when a chore started with Now is done.\n- Chore Now buttons work with the script stopped: it starts, does that chore, then stops again.\n- A screen the script doesn't know can wait for your direction from your phone instead of being escaped, and the Debug tab's \"Direct from phone\" pauses the script so you can direct the device.\n- Workflows can restart the device, every time or only when the script has slowed down, and carry on at the next step.\n- Some GAP Companion features now come as add-ons, sent to the accounts that have them.\n*Quick Bar*\n- Copy code can now be tapped while the script is running.\n*Platform*\n- Requires General Automation Platform 4.0 or newer.\n\n**Fixes**\n- Game startup taps straight through the opening video and TAP TO START to the home screen, whatever the month's title art.\n- A round interrupted by another app picks up where it left off, pressing Continue on the pause menu.\n- A ready skill no longer waits a few seconds while effects cover the Pause and Fan buttons.\n- Villains Set uses its skill as soon as the gauge is full.\n- Bonus items no longer all flip on and off before a round.\n- Sending hearts no longer stops partway down the friend list, including at a run of look-alike friends or friends with low scores.\n- Receiving mail one by one no longer gets stuck on the new-tsum card after opening a tsum box.\n- No longer gets stuck on the coloring event's mission tip after a round.\n- Box Buying finds the Select Box in the Japanese game, where it can be the last of three boxes shown.\n- GAP Companion no longer asks for directions on loading or startup screens, or when the game restarts itself for an update.\n- Starting from GAP Companion no longer resets your settings to the defaults after a script update.\n\n_Testing build -- please report anything odd._",
+  "MinHost": "4.0",
+  "Versions": [
+    {
+      "Version": "6.0b1",
+      "Date": "2026-10-24 06:11:41",
+      "Hash": "14c8bced1f81ac9448db09a338a9b8830186dd30f50176c3141534d382f94237",
+      "File": "TsumTsum-Beta-6.0b1.zip",
+      "MinHost": "4.0"
+    }
+  ]
+}
