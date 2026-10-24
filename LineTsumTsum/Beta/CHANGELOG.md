@@ -3,6 +3,11 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b2 - 2026-10-24
+
+**Fixes**
+- Receiving mail one by one no longer restarts the game over and over on emulators with little free memory (merged up from 5.6).
+
 ## 6.0b1 - 2026-10-24
 
 **Additions**
