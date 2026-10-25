@@ -3,6 +3,12 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b3 - 2026-10-25
+
+**Fixes**
+- When the game crashes mid-round, Auto launch now reopens it instead of the run stopping.
+- Long runs no longer earn fewer coins hour by hour (play slowed until the script restarted).
+
 ## 6.0b2 - 2026-10-24
 
 **Fixes**

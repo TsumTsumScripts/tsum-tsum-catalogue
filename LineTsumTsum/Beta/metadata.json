@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b2",
-  "Date": "2026-10-24 17:52:06",
-  "Hash": "2d8092ec7afc5d205fe6883b5efcca5c9925c85807a7e731c2660e197a4a3ab9",
-  "File": "TsumTsum-Beta-6.0b2.zip",
-  "Message": "**Fixes**\n- Receiving mail one by one no longer restarts the game over and over on emulators with little free memory (merged up from 5.6).\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b3",
+  "Date": "2026-10-25 09:11:12",
+  "Hash": "156d9cc8379fc6704b1e83d8ba68bdc077999699f8b110e61ccf5e654de2b038",
+  "File": "TsumTsum-Beta-6.0b3.zip",
+  "Message": "**Fixes**\n- When the game crashes mid-round, Auto launch now reopens it instead of the run stopping.\n- Long runs no longer earn fewer coins hour by hour (play slowed until the script restarted).\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b3",
+      "Date": "2026-10-25 09:11:12",
+      "Hash": "156d9cc8379fc6704b1e83d8ba68bdc077999699f8b110e61ccf5e654de2b038",
+      "File": "TsumTsum-Beta-6.0b3.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b2",
       "Date": "2026-10-24 17:52:06",
