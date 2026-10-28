@@ -3,6 +3,12 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b4 - 2026-10-28
+
+**Fixes**
+- Sending hearts no longer keeps dragging at the bottom of the friend list.
+- Tiara Minnie+ no longer stands still for 6-9 seconds when her skill trigger turns out to be false.
+
 ## 6.0b3 - 2026-10-25
 
 **Fixes**

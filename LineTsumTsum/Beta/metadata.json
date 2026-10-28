@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b3",
-  "Date": "2026-10-25 09:11:12",
-  "Hash": "156d9cc8379fc6704b1e83d8ba68bdc077999699f8b110e61ccf5e654de2b038",
-  "File": "TsumTsum-Beta-6.0b3.zip",
-  "Message": "**Fixes**\n- When the game crashes mid-round, Auto launch now reopens it instead of the run stopping.\n- Long runs no longer earn fewer coins hour by hour (play slowed until the script restarted).\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b4",
+  "Date": "2026-10-28 04:22:15",
+  "Hash": "7ccee71fad18bd7a9870e125f4120cd3d2d1915cef4d8eafdaeda8c72121315c",
+  "File": "TsumTsum-Beta-6.0b4.zip",
+  "Message": "**Fixes**\n- Sending hearts no longer keeps dragging at the bottom of the friend list.\n- Tiara Minnie+ no longer stands still for 6-9 seconds when her skill trigger turns out to be false.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b4",
+      "Date": "2026-10-28 04:22:15",
+      "Hash": "7ccee71fad18bd7a9870e125f4120cd3d2d1915cef4d8eafdaeda8c72121315c",
+      "File": "TsumTsum-Beta-6.0b4.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b3",
       "Date": "2026-10-25 09:11:12",
