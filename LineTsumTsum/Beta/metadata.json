@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b4",
-  "Date": "2026-10-28 04:22:15",
-  "Hash": "7ccee71fad18bd7a9870e125f4120cd3d2d1915cef4d8eafdaeda8c72121315c",
-  "File": "TsumTsum-Beta-6.0b4.zip",
-  "Message": "**Fixes**\n- Sending hearts no longer keeps dragging at the bottom of the friend list.\n- Tiara Minnie+ no longer stands still for 6-9 seconds when her skill trigger turns out to be false.\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b5",
+  "Date": "2026-10-29 06:06:30",
+  "Hash": "e1d802e64a75364ca5cf237353606b0bd79cf46976f923287ba6f23d51def34b",
+  "File": "TsumTsum-Beta-6.0b5.zip",
+  "Message": "**Additions**\n*Quick Bar*\n- Time out button on page two: stops playing the current round and lets it run out; its time stops counting at the tap, so coins per second stay fair. Works while the script is running.\n- Last round can now be tapped while the script is running, not only when paused. It and Time out sit at the end of page two's bottom row.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b5",
+      "Date": "2026-10-29 06:06:30",
+      "Hash": "e1d802e64a75364ca5cf237353606b0bd79cf46976f923287ba6f23d51def34b",
+      "File": "TsumTsum-Beta-6.0b5.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b4",
       "Date": "2026-10-28 04:22:15",

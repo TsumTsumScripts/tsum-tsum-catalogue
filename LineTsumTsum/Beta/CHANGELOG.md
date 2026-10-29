@@ -3,6 +3,13 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b5 - 2026-10-29
+
+**Additions**
+*Quick Bar*
+- Time out button on page two: stops playing the current round and lets it run out; its time stops counting at the tap, so coins per second stay fair. Works while the script is running.
+- Last round can now be tapped while the script is running, not only when paused. It and Time out sit at the end of page two's bottom row.
+
 ## 6.0b4 - 2026-10-28
 
 **Fixes**
