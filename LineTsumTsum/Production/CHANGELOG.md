@@ -1,6 +1,15 @@
 # Tsum Tsum
 
 What shipped in each release, newest first. 
+## 5.7 - 2026-10-31
+
+**Additions**
+*Tsums*
+- The five newest JP tsums are recognised before a round: Lorcana Belle, Cruella, Donald and Woody, and Sorcerer's Apprentice Mickey+.
+
+**Fixes**
+- Magic Wand Clarice, Daisy and Minnie, Mabel+ and Mysterious Knight Mickey show their English names on the international game instead of their Japanese ones.
+
 ## 5.6 - 2026-10-24
 
 **Fixes**
