@@ -3,6 +3,18 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b6 - 2026-11-02
+
+**Additions**
+*Chains*
+- Maximum Chain Number can be set to 0 for no limit: the script links the longest chain it finds. Stepping down from 3 goes to 0, and up from 0 goes back to 3, on the settings page, the Quick Bar and GAP Companion.
+*Skills*
+- Magic Wand Change skill added: plays as a burst and taps the locket as soon as it appears, so the round no longer stops there.
+
+**Fixes**
+- Round stats now record base coins for the Change tsums, whose game screen has its own colours.
+- Auto Unlock MyTsum Level now notices when a Change tsum, or a MyTsum whose ears or bow stick out, is level locked.
+
 ## 6.0b5 - 2026-10-29
 
 **Additions**

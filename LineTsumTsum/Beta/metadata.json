@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b5",
-  "Date": "2026-10-29 06:06:30",
-  "Hash": "e1d802e64a75364ca5cf237353606b0bd79cf46976f923287ba6f23d51def34b",
-  "File": "TsumTsum-Beta-6.0b5.zip",
-  "Message": "**Additions**\n*Quick Bar*\n- Time out button on page two: stops playing the current round and lets it run out; its time stops counting at the tap, so coins per second stay fair. Works while the script is running.\n- Last round can now be tapped while the script is running, not only when paused. It and Time out sit at the end of page two's bottom row.\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b6",
+  "Date": "2026-11-02 09:32:23",
+  "Hash": "2e9f9f4699299a73e56efc794249c551d8ab9d7f8f4217fd915d805ab67e1a00",
+  "File": "TsumTsum-Beta-6.0b6.zip",
+  "Message": "**Additions**\n*Chains*\n- Maximum Chain Number can be set to 0 for no limit: the script links the longest chain it finds. Stepping down from 3 goes to 0, and up from 0 goes back to 3, on the settings page, the Quick Bar and GAP Companion.\n*Skills*\n- Magic Wand Change skill added: plays as a burst and taps the locket as soon as it appears, so the round no longer stops there.\n\n**Fixes**\n- Round stats now record base coins for the Change tsums, whose game screen has its own colours.\n- Auto Unlock MyTsum Level now notices when a Change tsum, or a MyTsum whose ears or bow stick out, is level locked.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b6",
+      "Date": "2026-11-02 09:32:23",
+      "Hash": "2e9f9f4699299a73e56efc794249c551d8ab9d7f8f4217fd915d805ab67e1a00",
+      "File": "TsumTsum-Beta-6.0b6.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b5",
       "Date": "2026-10-29 06:06:30",
@@ -34,13 +41,6 @@
       "Date": "2026-10-24 17:52:06",
       "Hash": "2d8092ec7afc5d205fe6883b5efcca5c9925c85807a7e731c2660e197a4a3ab9",
       "File": "TsumTsum-Beta-6.0b2.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b1",
-      "Date": "2026-10-24 06:11:41",
-      "Hash": "14c8bced1f81ac9448db09a338a9b8830186dd30f50176c3141534d382f94237",
-      "File": "TsumTsum-Beta-6.0b1.zip",
       "MinHost": "4.0"
     }
   ]
