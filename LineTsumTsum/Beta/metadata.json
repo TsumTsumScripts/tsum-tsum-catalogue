@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b6",
-  "Date": "2026-11-02 09:32:23",
-  "Hash": "2e9f9f4699299a73e56efc794249c551d8ab9d7f8f4217fd915d805ab67e1a00",
-  "File": "TsumTsum-Beta-6.0b6.zip",
-  "Message": "**Additions**\n*Chains*\n- Maximum Chain Number can be set to 0 for no limit: the script links the longest chain it finds. Stepping down from 3 goes to 0, and up from 0 goes back to 3, on the settings page, the Quick Bar and GAP Companion.\n*Skills*\n- Magic Wand Change skill added: plays as a burst and taps the locket as soon as it appears, so the round no longer stops there.\n\n**Fixes**\n- Round stats now record base coins for the Change tsums, whose game screen has its own colours.\n- Auto Unlock MyTsum Level now notices when a Change tsum, or a MyTsum whose ears or bow stick out, is level locked.\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b7",
+  "Date": "2026-11-02 09:58:07",
+  "Hash": "a313e6aa484d04444f3a103c8ac966be0529befb26f73027188a38fb271494b8",
+  "File": "TsumTsum-Beta-6.0b7.zip",
+  "Message": "**Fixes**\n- Round stats record base coins for the Change tsums on MuMu too.\n- Auto Unlock MyTsum Level no longer checks the wrong tsum while a Level Up glow covers yours.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b7",
+      "Date": "2026-11-02 09:58:07",
+      "Hash": "a313e6aa484d04444f3a103c8ac966be0529befb26f73027188a38fb271494b8",
+      "File": "TsumTsum-Beta-6.0b7.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b6",
       "Date": "2026-11-02 09:32:23",
@@ -34,13 +41,6 @@
       "Date": "2026-10-25 09:11:12",
       "Hash": "156d9cc8379fc6704b1e83d8ba68bdc077999699f8b110e61ccf5e654de2b038",
       "File": "TsumTsum-Beta-6.0b3.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b2",
-      "Date": "2026-10-24 17:52:06",
-      "Hash": "2d8092ec7afc5d205fe6883b5efcca5c9925c85807a7e731c2660e197a4a3ab9",
-      "File": "TsumTsum-Beta-6.0b2.zip",
       "MinHost": "4.0"
     }
   ]

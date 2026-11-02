@@ -3,6 +3,12 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b7 - 2026-11-02
+
+**Fixes**
+- Round stats record base coins for the Change tsums on MuMu too.
+- Auto Unlock MyTsum Level no longer checks the wrong tsum while a Level Up glow covers yours.
+
 ## 6.0b6 - 2026-11-02
 
 **Additions**
