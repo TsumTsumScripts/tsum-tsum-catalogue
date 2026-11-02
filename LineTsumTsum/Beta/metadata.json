@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b7",
-  "Date": "2026-11-02 09:58:07",
-  "Hash": "a313e6aa484d04444f3a103c8ac966be0529befb26f73027188a38fb271494b8",
-  "File": "TsumTsum-Beta-6.0b7.zip",
-  "Message": "**Fixes**\n- Round stats record base coins for the Change tsums on MuMu too.\n- Auto Unlock MyTsum Level no longer checks the wrong tsum while a Level Up glow covers yours.\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b8",
+  "Date": "2026-11-02 16:36:48",
+  "Hash": "14c98075e7575b8fd960695f9fc85d0bb43dae9398508f50aacb9d91ddbcd84e",
+  "File": "TsumTsum-Beta-6.0b8.zip",
+  "Message": "**Fixes**\n- Round stats record base coins for Hero Style Stitch too.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b8",
+      "Date": "2026-11-02 16:36:48",
+      "Hash": "14c98075e7575b8fd960695f9fc85d0bb43dae9398508f50aacb9d91ddbcd84e",
+      "File": "TsumTsum-Beta-6.0b8.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b7",
       "Date": "2026-11-02 09:58:07",
@@ -34,13 +41,6 @@
       "Date": "2026-10-28 04:22:15",
       "Hash": "7ccee71fad18bd7a9870e125f4120cd3d2d1915cef4d8eafdaeda8c72121315c",
       "File": "TsumTsum-Beta-6.0b4.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b3",
-      "Date": "2026-10-25 09:11:12",
-      "Hash": "156d9cc8379fc6704b1e83d8ba68bdc077999699f8b110e61ccf5e654de2b038",
-      "File": "TsumTsum-Beta-6.0b3.zip",
       "MinHost": "4.0"
     }
   ]

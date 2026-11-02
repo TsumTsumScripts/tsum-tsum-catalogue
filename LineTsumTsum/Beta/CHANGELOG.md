@@ -3,6 +3,11 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b8 - 2026-11-02
+
+**Fixes**
+- Round stats record base coins for Hero Style Stitch too.
+
 ## 6.0b7 - 2026-11-02
 
 **Fixes**
