@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b8",
-  "Date": "2026-11-02 16:36:48",
-  "Hash": "14c98075e7575b8fd960695f9fc85d0bb43dae9398508f50aacb9d91ddbcd84e",
-  "File": "TsumTsum-Beta-6.0b8.zip",
-  "Message": "**Fixes**\n- Round stats record base coins for Hero Style Stitch too.\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b9",
+  "Date": "2026-11-02 17:56:54",
+  "Hash": "77ff1ba35ba8fca676f88adb70c883afa12b0b1563143b28b97237d19f11ca05",
+  "File": "TsumTsum-Beta-6.0b9.zip",
+  "Message": "**Additions**\n*Skills*\n- Magic Wand Change skill improved by popping its heart bubble as soon as it appears.\n\n**Fixes**\n- Round stats record base coins for Magic Wand Daisy when her coins have a 0 in them.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b9",
+      "Date": "2026-11-02 17:56:54",
+      "Hash": "77ff1ba35ba8fca676f88adb70c883afa12b0b1563143b28b97237d19f11ca05",
+      "File": "TsumTsum-Beta-6.0b9.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b8",
       "Date": "2026-11-02 16:36:48",
@@ -34,13 +41,6 @@
       "Date": "2026-10-29 06:06:30",
       "Hash": "e1d802e64a75364ca5cf237353606b0bd79cf46976f923287ba6f23d51def34b",
       "File": "TsumTsum-Beta-6.0b5.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b4",
-      "Date": "2026-10-28 04:22:15",
-      "Hash": "7ccee71fad18bd7a9870e125f4120cd3d2d1915cef4d8eafdaeda8c72121315c",
-      "File": "TsumTsum-Beta-6.0b4.zip",
       "MinHost": "4.0"
     }
   ]

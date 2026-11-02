@@ -3,6 +3,15 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b9 - 2026-11-02
+
+**Additions**
+*Skills*
+- Magic Wand Change skill improved by popping its heart bubble as soon as it appears.
+
+**Fixes**
+- Round stats record base coins for Magic Wand Daisy when her coins have a 0 in them.
+
 ## 6.0b8 - 2026-11-02
 
 **Fixes**
