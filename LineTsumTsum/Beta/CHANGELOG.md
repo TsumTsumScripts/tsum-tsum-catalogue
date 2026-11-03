@@ -3,6 +3,11 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b11 - 2026-11-03
+
+**Fixes**
+- Round stats are still recorded when GAP Companion directs the game off a screen after a round (like the JP event's page).
+
 ## 6.0b10 - 2026-11-03
 
 **Fixes**
