@@ -3,6 +3,11 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b10 - 2026-11-03
+
+**Fixes**
+- A screen after a round that taps cannot clear (like the JP event's page) now asks GAP Companion for help in about 10 seconds instead of a minute.
+
 ## 6.0b9 - 2026-11-02
 
 **Additions**

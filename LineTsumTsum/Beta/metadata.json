@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b9",
-  "Date": "2026-11-02 17:56:54",
-  "Hash": "77ff1ba35ba8fca676f88adb70c883afa12b0b1563143b28b97237d19f11ca05",
-  "File": "TsumTsum-Beta-6.0b9.zip",
-  "Message": "**Additions**\n*Skills*\n- Magic Wand Change skill improved by popping its heart bubble as soon as it appears.\n\n**Fixes**\n- Round stats record base coins for Magic Wand Daisy when her coins have a 0 in them.\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b10",
+  "Date": "2026-11-03 00:41:46",
+  "Hash": "a35c0796c1a265e104c849cb93f9c16f67673f120f7b02cc8dbbd4997046dcb3",
+  "File": "TsumTsum-Beta-6.0b10.zip",
+  "Message": "**Fixes**\n- A screen after a round that taps cannot clear (like the JP event's page) now asks GAP Companion for help in about 10 seconds instead of a minute.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b10",
+      "Date": "2026-11-03 00:41:46",
+      "Hash": "a35c0796c1a265e104c849cb93f9c16f67673f120f7b02cc8dbbd4997046dcb3",
+      "File": "TsumTsum-Beta-6.0b10.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b9",
       "Date": "2026-11-02 17:56:54",
@@ -34,13 +41,6 @@
       "Date": "2026-11-02 09:32:23",
       "Hash": "2e9f9f4699299a73e56efc794249c551d8ab9d7f8f4217fd915d805ab67e1a00",
       "File": "TsumTsum-Beta-6.0b6.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b5",
-      "Date": "2026-10-29 06:06:30",
-      "Hash": "e1d802e64a75364ca5cf237353606b0bd79cf46976f923287ba6f23d51def34b",
-      "File": "TsumTsum-Beta-6.0b5.zip",
       "MinHost": "4.0"
     }
   ]
