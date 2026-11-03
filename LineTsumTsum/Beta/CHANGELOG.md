@@ -3,6 +3,18 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b12 - 2026-11-03
+
+**Additions**
+*GAP Companion*
+- Take over: pause the script wherever it is, even mid-round, and direct the game from GAP Companion until you press Continue.
+- Stats: This run shows coins and medals per second, and Recent rounds shows each round's medals once you have earned any.
+- Round button in the run bar: Stop after round, or Time out as on the Quick Bar.
+
+**Fixes**
+- Round stats record base coins more reliably on emulators: totals of 10,000-10,999, and Daisy, Minnie and Hero Style Stitch counts that came back blank.
+- On JP, closing the Quick Bar mid-round resumes the round instead of giving it up as over.
+
 ## 6.0b11 - 2026-11-03
 
 **Fixes**
