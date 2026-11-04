@@ -3,6 +3,11 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b17 - 2026-11-04
+
+**Fixes**
+- Take over in GAP Companion no longer sends a notification when the script asks for direction at the same moment.
+
 ## 6.0b16 - 2026-11-04
 
 **Fixes**
