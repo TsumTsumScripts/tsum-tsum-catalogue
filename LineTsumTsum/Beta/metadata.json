@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b13",
-  "Date": "2026-11-04 02:43:04",
-  "Hash": "d634906571c77d5ea8eb3139dfc5545bc25e6e0a1c181db5d34ac9b6799459ab",
-  "File": "TsumTsum-Beta-6.0b13.zip",
-  "Message": "**Additions**\n*GAP Companion*\n- Take over also works while the script is stopped.\n\n**Fixes**\n- MyTsum detection names look-alike tsums it used to leave unidentified, such as Anniversary Mickey and Steamboat Mickey.\n- Rapunzel+'s chain is no longer cut to a few tsums after a stall, and the script now says when the game stops taking her drags.\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b14",
+  "Date": "2026-11-04 07:08:33",
+  "Hash": "40a4abaa0b3898cdcd39d53a0b54937b740520912f3a9cba7a97562ca5656b53",
+  "File": "TsumTsum-Beta-6.0b14.zip",
+  "Message": "**Additions**\n*GAP Companion*\n- Presets sync both ways with GAP Companion: a preset saved, renamed or deleted on any device or on the phone reaches every device. Restoring an old backup or switching from 5.0 can bring back a deleted preset or add a \"(device)\" copy; nothing is lost.\n*Presets*\n- Rename a preset from the Save panel; workflows that use it keep working.\n- New No preset in the preset list brings back your own settings.\n\n**Fixes**\n- Applying a preset now sets every preset setting, using defaults for the ones it leaves out.\n- Stuck on an unfamiliar screen after restarting the game, the script now asks for help in GAP Companion; it used to never ask.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b14",
+      "Date": "2026-11-04 07:08:33",
+      "Hash": "40a4abaa0b3898cdcd39d53a0b54937b740520912f3a9cba7a97562ca5656b53",
+      "File": "TsumTsum-Beta-6.0b14.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b13",
       "Date": "2026-11-04 02:43:04",
@@ -34,13 +41,6 @@
       "Date": "2026-11-03 00:41:46",
       "Hash": "a35c0796c1a265e104c849cb93f9c16f67673f120f7b02cc8dbbd4997046dcb3",
       "File": "TsumTsum-Beta-6.0b10.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b9",
-      "Date": "2026-11-02 17:56:54",
-      "Hash": "77ff1ba35ba8fca676f88adb70c883afa12b0b1563143b28b97237d19f11ca05",
-      "File": "TsumTsum-Beta-6.0b9.zip",
       "MinHost": "4.0"
     }
   ]

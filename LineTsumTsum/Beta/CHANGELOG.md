@@ -3,6 +3,19 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b14 - 2026-11-04
+
+**Additions**
+*GAP Companion*
+- Presets sync both ways with GAP Companion: a preset saved, renamed or deleted on any device or on the phone reaches every device. Restoring an old backup or switching from 5.0 can bring back a deleted preset or add a "(device)" copy; nothing is lost.
+*Presets*
+- Rename a preset from the Save panel; workflows that use it keep working.
+- New No preset in the preset list brings back your own settings.
+
+**Fixes**
+- Applying a preset now sets every preset setting, using defaults for the ones it leaves out.
+- Stuck on an unfamiliar screen after restarting the game, the script now asks for help in GAP Companion; it used to never ask.
+
 ## 6.0b13 - 2026-11-04
 
 **Additions**
