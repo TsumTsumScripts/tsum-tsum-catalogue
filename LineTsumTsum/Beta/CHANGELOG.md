@@ -3,6 +3,11 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b16 - 2026-11-04
+
+**Fixes**
+- Round stats record base coins for Magic Wand Clarice, which came back blank.
+
 ## 6.0b15 - 2026-11-04
 
 **Fixes**

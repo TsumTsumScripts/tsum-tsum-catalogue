@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b15",
-  "Date": "2026-11-04 07:31:10",
-  "Hash": "eec744175bdac1383d05f13b15e90a19150e16569387817c74cd763159f61216",
-  "File": "TsumTsum-Beta-6.0b15.zip",
-  "Message": "**Fixes**\n- Pressing Play twice no longer starts the script twice, which had two copies tapping the board at once so no chains were made (merged up from 5.8).\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b16",
+  "Date": "2026-11-04 09:30:33",
+  "Hash": "2933b24f90fc44622a9872840f1b7d1e1886e5117bc2ed1682c94d0da509d19f",
+  "File": "TsumTsum-Beta-6.0b16.zip",
+  "Message": "**Fixes**\n- Round stats record base coins for Magic Wand Clarice, which came back blank.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b16",
+      "Date": "2026-11-04 09:30:33",
+      "Hash": "2933b24f90fc44622a9872840f1b7d1e1886e5117bc2ed1682c94d0da509d19f",
+      "File": "TsumTsum-Beta-6.0b16.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b15",
       "Date": "2026-11-04 07:31:10",
@@ -34,13 +41,6 @@
       "Date": "2026-11-03 07:03:36",
       "Hash": "1169d0e5c367acd518fb9d45328a7240c05b34ae8428e53e1472ba893bdf272c",
       "File": "TsumTsum-Beta-6.0b12.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b11",
-      "Date": "2026-11-03 00:48:45",
-      "Hash": "519914672e581bb15101ef9485c5cac18fee5b65364de5ad049ebe0aeefef31e",
-      "File": "TsumTsum-Beta-6.0b11.zip",
       "MinHost": "4.0"
     }
   ]
