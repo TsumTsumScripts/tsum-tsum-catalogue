@@ -3,6 +3,11 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b15 - 2026-11-04
+
+**Fixes**
+- Pressing Play twice no longer starts the script twice, which had two copies tapping the board at once so no chains were made (merged up from 5.8).
+
 ## 6.0b14 - 2026-11-04
 
 **Additions**
