@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b12",
-  "Date": "2026-11-03 07:03:36",
-  "Hash": "1169d0e5c367acd518fb9d45328a7240c05b34ae8428e53e1472ba893bdf272c",
-  "File": "TsumTsum-Beta-6.0b12.zip",
-  "Message": "**Additions**\n*GAP Companion*\n- Take over: pause the script wherever it is, even mid-round, and direct the game from GAP Companion until you press Continue.\n- Stats: This run shows coins and medals per second, and Recent rounds shows each round's medals once you have earned any.\n- Round button in the run bar: Stop after round, or Time out as on the Quick Bar.\n\n**Fixes**\n- Round stats record base coins more reliably on emulators: totals of 10,000-10,999, and Daisy, Minnie and Hero Style Stitch counts that came back blank.\n- On JP, closing the Quick Bar mid-round resumes the round instead of giving it up as over.\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b13",
+  "Date": "2026-11-04 02:43:04",
+  "Hash": "d634906571c77d5ea8eb3139dfc5545bc25e6e0a1c181db5d34ac9b6799459ab",
+  "File": "TsumTsum-Beta-6.0b13.zip",
+  "Message": "**Additions**\n*GAP Companion*\n- Take over also works while the script is stopped.\n\n**Fixes**\n- MyTsum detection names look-alike tsums it used to leave unidentified, such as Anniversary Mickey and Steamboat Mickey.\n- Rapunzel+'s chain is no longer cut to a few tsums after a stall, and the script now says when the game stops taking her drags.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b13",
+      "Date": "2026-11-04 02:43:04",
+      "Hash": "d634906571c77d5ea8eb3139dfc5545bc25e6e0a1c181db5d34ac9b6799459ab",
+      "File": "TsumTsum-Beta-6.0b13.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b12",
       "Date": "2026-11-03 07:03:36",
@@ -34,13 +41,6 @@
       "Date": "2026-11-02 17:56:54",
       "Hash": "77ff1ba35ba8fca676f88adb70c883afa12b0b1563143b28b97237d19f11ca05",
       "File": "TsumTsum-Beta-6.0b9.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b8",
-      "Date": "2026-11-02 16:36:48",
-      "Hash": "14c98075e7575b8fd960695f9fc85d0bb43dae9398508f50aacb9d91ddbcd84e",
-      "File": "TsumTsum-Beta-6.0b8.zip",
       "MinHost": "4.0"
     }
   ]

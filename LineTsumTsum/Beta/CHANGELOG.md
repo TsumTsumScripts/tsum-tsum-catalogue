@@ -3,6 +3,16 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b13 - 2026-11-04
+
+**Additions**
+*GAP Companion*
+- Take over also works while the script is stopped.
+
+**Fixes**
+- MyTsum detection names look-alike tsums it used to leave unidentified, such as Anniversary Mickey and Steamboat Mickey.
+- Rapunzel+'s chain is no longer cut to a few tsums after a stall, and the script now says when the game stops taking her drags.
+
 ## 6.0b12 - 2026-11-03
 
 **Additions**
