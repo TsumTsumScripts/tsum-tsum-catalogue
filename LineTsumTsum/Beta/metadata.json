@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b17",
-  "Date": "2026-11-04 17:36:22",
-  "Hash": "75d425d4cf3e307d609c0c5af0aecf4644e747b13bbd1a4389bf73f0c5708ad9",
-  "File": "TsumTsum-Beta-6.0b17.zip",
-  "Message": "**Fixes**\n- Take over in GAP Companion no longer sends a notification when the script asks for direction at the same moment.\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b18",
+  "Date": "2026-11-05 03:38:25",
+  "Hash": "e0fafe44330b032aac2793647f5efef6ed81df254ebabfeb769fa3b80580d2ea",
+  "File": "TsumTsum-Beta-6.0b18.zip",
+  "Message": "**Additions**\n*Skills*\n- KH2 Cloud skill added: waits for the stronger second charge of his gauge before tapping, and uses the first charge if the round is about to end.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b18",
+      "Date": "2026-11-05 03:38:25",
+      "Hash": "e0fafe44330b032aac2793647f5efef6ed81df254ebabfeb769fa3b80580d2ea",
+      "File": "TsumTsum-Beta-6.0b18.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b17",
       "Date": "2026-11-04 17:36:22",
@@ -34,13 +41,6 @@
       "Date": "2026-11-04 07:08:33",
       "Hash": "40a4abaa0b3898cdcd39d53a0b54937b740520912f3a9cba7a97562ca5656b53",
       "File": "TsumTsum-Beta-6.0b14.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b13",
-      "Date": "2026-11-04 02:43:04",
-      "Hash": "d634906571c77d5ea8eb3139dfc5545bc25e6e0a1c181db5d34ac9b6799459ab",
-      "File": "TsumTsum-Beta-6.0b13.zip",
       "MinHost": "4.0"
     }
   ]

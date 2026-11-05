@@ -3,6 +3,12 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b18 - 2026-11-05
+
+**Additions**
+*Skills*
+- KH2 Cloud skill added: waits for the stronger second charge of his gauge before tapping, and uses the first charge if the round is about to end.
+
 ## 6.0b17 - 2026-11-04
 
 **Fixes**
