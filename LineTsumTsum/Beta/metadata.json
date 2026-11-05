@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b18",
-  "Date": "2026-11-05 03:38:25",
-  "Hash": "e0fafe44330b032aac2793647f5efef6ed81df254ebabfeb769fa3b80580d2ea",
-  "File": "TsumTsum-Beta-6.0b18.zip",
-  "Message": "**Additions**\n*Skills*\n- KH2 Cloud skill added: waits for the stronger second charge of his gauge before tapping, and uses the first charge if the round is about to end.\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b19",
+  "Date": "2026-11-05 08:57:26",
+  "Hash": "433e3c2d7c6878a8e3ecf6b9cc5ea68dc0d67fc04d0b2fa161cfdce508a7db14",
+  "File": "TsumTsum-Beta-6.0b19.zip",
+  "Message": "**Fixes**\n- When the game shows an error and returns to its title screen, the script closes the error and taps through the title instead of asking for direction.\n- Chernabog's skill no longer makes the script think the round is over and stop playing.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b19",
+      "Date": "2026-11-05 08:57:26",
+      "Hash": "433e3c2d7c6878a8e3ecf6b9cc5ea68dc0d67fc04d0b2fa161cfdce508a7db14",
+      "File": "TsumTsum-Beta-6.0b19.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b18",
       "Date": "2026-11-05 03:38:25",
@@ -34,13 +41,6 @@
       "Date": "2026-11-04 07:31:10",
       "Hash": "eec744175bdac1383d05f13b15e90a19150e16569387817c74cd763159f61216",
       "File": "TsumTsum-Beta-6.0b15.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b14",
-      "Date": "2026-11-04 07:08:33",
-      "Hash": "40a4abaa0b3898cdcd39d53a0b54937b740520912f3a9cba7a97562ca5656b53",
-      "File": "TsumTsum-Beta-6.0b14.zip",
       "MinHost": "4.0"
     }
   ]

@@ -3,6 +3,12 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b19 - 2026-11-05
+
+**Fixes**
+- When the game shows an error and returns to its title screen, the script closes the error and taps through the title instead of asking for direction.
+- Chernabog's skill no longer makes the script think the round is over and stop playing.
+
 ## 6.0b18 - 2026-11-05
 
 **Additions**
