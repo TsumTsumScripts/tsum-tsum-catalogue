@@ -3,6 +3,11 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b21 - 2026-11-07
+
+**Fixes**
+- Auto Unlock MyTsum Level now sees a capped MyTsum on JP and raises its level cap.
+
 ## 6.0b20 - 2026-11-07
 
 **Fixes**
