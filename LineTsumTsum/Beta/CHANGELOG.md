@@ -3,6 +3,11 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b22 - 2026-11-07
+
+**Fixes**
+- Dapper Hat Mickey's skill no longer ends the round early; the script keeps playing through its dance.
+
 ## 6.0b21 - 2026-11-07
 
 **Fixes**
