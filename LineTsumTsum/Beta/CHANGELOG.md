@@ -3,6 +3,11 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b20 - 2026-11-07
+
+**Fixes**
+- An event's free bonus item ("Make a wish upon a star!") no longer has the script tapping it and raising its popup on every round (INTL).
+
 ## 6.0b19 - 2026-11-05
 
 **Fixes**
