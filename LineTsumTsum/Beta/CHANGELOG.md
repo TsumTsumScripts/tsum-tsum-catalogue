@@ -3,6 +3,11 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b23 - 2026-11-08
+
+**Fixes**
+- The Tsum List now names the five newest JP tsums (Lorcana Belle, Cruella, Donald and Woody, and Sorcerer's Apprentice Mickey+) instead of leaving them blank (merged up from 5.8).
+
 ## 6.0b22 - 2026-11-07
 
 **Fixes**
