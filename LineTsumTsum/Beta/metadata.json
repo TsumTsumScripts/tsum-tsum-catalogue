@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b23",
-  "Date": "2026-11-08 01:51:41",
-  "Hash": "93385e86fdda93a3bfc7c3ad1bafac1aeee3aa50f5fc61185ea38d3effd952dc",
-  "File": "TsumTsum-Beta-6.0b23.zip",
-  "Message": "**Fixes**\n- The Tsum List now names the five newest JP tsums (Lorcana Belle, Cruella, Donald and Woody, and Sorcerer's Apprentice Mickey+) instead of leaving them blank (merged up from 5.8).\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b24",
+  "Date": "2026-11-08 05:09:30",
+  "Hash": "59adc9cb2b3bade57cee8b6f9d7dc701c4f7fd7a4fa50cb896d1619edbeb1d6a",
+  "File": "TsumTsum-Beta-6.0b24.zip",
+  "Message": "**Additions**\n*Companion*\n- On the JP game, the companion app shows each tsum's English name too and finds tsums by it.\n\n**Fixes**\n- The skill (or another setting) no longer switches back on its own after a Quick Bar, preset or phone change, and Play no longer starts on an old skill until GAP is restarted.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b24",
+      "Date": "2026-11-08 05:09:30",
+      "Hash": "59adc9cb2b3bade57cee8b6f9d7dc701c4f7fd7a4fa50cb896d1619edbeb1d6a",
+      "File": "TsumTsum-Beta-6.0b24.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b23",
       "Date": "2026-11-08 01:51:41",
@@ -34,13 +41,6 @@
       "Date": "2026-11-07 02:56:30",
       "Hash": "ea446938edf6adb291052377f8c059f12cf7c430c1199e6dc1cbf89dab096297",
       "File": "TsumTsum-Beta-6.0b20.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b19",
-      "Date": "2026-11-05 08:57:26",
-      "Hash": "433e3c2d7c6878a8e3ecf6b9cc5ea68dc0d67fc04d0b2fa161cfdce508a7db14",
-      "File": "TsumTsum-Beta-6.0b19.zip",
       "MinHost": "4.0"
     }
   ]

@@ -3,6 +3,15 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b24 - 2026-11-08
+
+**Additions**
+*Companion*
+- On the JP game, the companion app shows each tsum's English name too and finds tsums by it.
+
+**Fixes**
+- The skill (or another setting) no longer switches back on its own after a Quick Bar, preset or phone change, and Play no longer starts on an old skill until GAP is restarted.
+
 ## 6.0b23 - 2026-11-08
 
 **Fixes**
