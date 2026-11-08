@@ -3,6 +3,12 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b25 - 2026-11-08
+
+**Additions**
+*Companion*
+- Presets can be assigned to tsums in the companion app, for add-ons that use them.
+
 ## 6.0b24 - 2026-11-08
 
 **Additions**

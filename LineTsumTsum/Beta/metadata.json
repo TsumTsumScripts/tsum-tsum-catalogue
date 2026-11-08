@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b24",
-  "Date": "2026-11-08 05:09:30",
-  "Hash": "59adc9cb2b3bade57cee8b6f9d7dc701c4f7fd7a4fa50cb896d1619edbeb1d6a",
-  "File": "TsumTsum-Beta-6.0b24.zip",
-  "Message": "**Additions**\n*Companion*\n- On the JP game, the companion app shows each tsum's English name too and finds tsums by it.\n\n**Fixes**\n- The skill (or another setting) no longer switches back on its own after a Quick Bar, preset or phone change, and Play no longer starts on an old skill until GAP is restarted.\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b25",
+  "Date": "2026-11-08 19:19:08",
+  "Hash": "296ccf390aba643100e912f8e7804525a133da23663d6da473bd2d55a4ca8746",
+  "File": "TsumTsum-Beta-6.0b25.zip",
+  "Message": "**Additions**\n*Companion*\n- Presets can be assigned to tsums in the companion app, for add-ons that use them.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b25",
+      "Date": "2026-11-08 19:19:08",
+      "Hash": "296ccf390aba643100e912f8e7804525a133da23663d6da473bd2d55a4ca8746",
+      "File": "TsumTsum-Beta-6.0b25.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b24",
       "Date": "2026-11-08 05:09:30",
@@ -34,13 +41,6 @@
       "Date": "2026-11-07 06:02:29",
       "Hash": "ad9e6a3fe092d89993b082b69a5153b0da168508d2cbe12ea770d4ed9749d664",
       "File": "TsumTsum-Beta-6.0b21.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b20",
-      "Date": "2026-11-07 02:56:30",
-      "Hash": "ea446938edf6adb291052377f8c059f12cf7c430c1199e6dc1cbf89dab096297",
-      "File": "TsumTsum-Beta-6.0b20.zip",
       "MinHost": "4.0"
     }
   ]
