@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b25",
-  "Date": "2026-11-08 19:19:08",
-  "Hash": "296ccf390aba643100e912f8e7804525a133da23663d6da473bd2d55a4ca8746",
-  "File": "TsumTsum-Beta-6.0b25.zip",
-  "Message": "**Additions**\n*Companion*\n- Presets can be assigned to tsums in the companion app, for add-ons that use them.\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b26",
+  "Date": "2026-11-10 23:44:07",
+  "Hash": "0da9948a6be0a510266d1cb4421e0151b4399d2cd186282ae1b0e70ed501fbec",
+  "File": "TsumTsum-Beta-6.0b26.zip",
+  "Message": "**Additions**\n*Companion*\n- Add-ons can set the skill on the pre-round screen when My Tsum changes, before the round starts.\n*Quick Bar*\n- A brief notice over the Quick Bar says what the script or an add-on just did by itself. Tap it to dismiss it. It follows the page style and light or dark theme.\n\n**Changes**\n- The Marie, Miss Bunny, Rabbit, Moana and Horn Hat Mickey skills are removed; use Burst+Bubbles, which plays them the same way. Saved settings that pick one play as Burst+Bubbles.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b26",
+      "Date": "2026-11-10 23:44:07",
+      "Hash": "0da9948a6be0a510266d1cb4421e0151b4399d2cd186282ae1b0e70ed501fbec",
+      "File": "TsumTsum-Beta-6.0b26.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b25",
       "Date": "2026-11-08 19:19:08",
@@ -34,13 +41,6 @@
       "Date": "2026-11-07 23:13:14",
       "Hash": "f5769309d5c594d7d26067164d6b7a67a2422b471ff2628cf1f2f08907909c44",
       "File": "TsumTsum-Beta-6.0b22.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b21",
-      "Date": "2026-11-07 06:02:29",
-      "Hash": "ad9e6a3fe092d89993b082b69a5153b0da168508d2cbe12ea770d4ed9749d664",
-      "File": "TsumTsum-Beta-6.0b21.zip",
       "MinHost": "4.0"
     }
   ]

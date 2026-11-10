@@ -3,6 +3,17 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b26 - 2026-11-10
+
+**Additions**
+*Companion*
+- Add-ons can set the skill on the pre-round screen when My Tsum changes, before the round starts.
+*Quick Bar*
+- A brief notice over the Quick Bar says what the script or an add-on just did by itself. Tap it to dismiss it. It follows the page style and light or dark theme.
+
+**Changes**
+- The Marie, Miss Bunny, Rabbit, Moana and Horn Hat Mickey skills are removed; use Burst+Bubbles, which plays them the same way. Saved settings that pick one play as Burst+Bubbles.
+
 ## 6.0b25 - 2026-11-08
 
 **Additions**
