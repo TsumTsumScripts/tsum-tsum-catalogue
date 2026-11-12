@@ -3,6 +3,16 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b27 - 2026-11-12
+
+**Additions**
+*Companion*
+- Presets from the companion app can be turned into share codes for the settings page, through the Tsum Tsum Stats Presets page.
+
+**Fixes**
+- The Quick Bar no longer shows a preset's settings in place of the ones the run is using (such as the wrong bubble strategy, or skill level with Auto Set Skill Level on).
+- Starting from the companion app, a workflow or Take-over uses the settings changed on the settings page or Quick Bar while stopped, not the previous run's.
+
 ## 6.0b26 - 2026-11-10
 
 **Additions**
