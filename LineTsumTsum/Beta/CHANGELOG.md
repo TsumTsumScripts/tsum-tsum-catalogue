@@ -3,6 +3,12 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b28 - 2026-11-15
+
+**Additions**
+*Box Buying*
+- Buy open box 10 at a time until sold out: open a box with a 10-Time purchase in the store yourself, press Now, and it is bought 10 at a time (1 at a time for the last few) until it is gone.
+
 ## 6.0b27 - 2026-11-12
 
 **Additions**
