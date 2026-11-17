@@ -3,6 +3,15 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b29 - 2026-11-17
+
+**Additions**
+*Gameplay*
+- Coin target (Alpha): play each round to an exact number of coins for bingo missions, holding the skill near the target unless "always use skill" is on; these rounds are left out of round stats.
+
+**Fixes**
+- GAP Companion asks for direction on every unfamiliar screen, including moving ones, popups right after the game starts, and screens the script keeps getting stuck on.
+
 ## 6.0b28 - 2026-11-15
 
 **Additions**
