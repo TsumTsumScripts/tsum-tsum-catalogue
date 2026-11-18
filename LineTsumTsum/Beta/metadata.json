@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b29",
-  "Date": "2026-11-17 18:58:32",
-  "Hash": "9afdc4ca8bd5525c78c6adcf4f13c3d9499c81559af4ff282cf5977af104eb44",
-  "File": "TsumTsum-Beta-6.0b29.zip",
-  "Message": "**Additions**\n*Gameplay*\n- Coin target (Alpha): play each round to an exact number of coins for bingo missions, holding the skill near the target unless \"always use skill\" is on; these rounds are left out of round stats.\n\n**Fixes**\n- GAP Companion asks for direction on every unfamiliar screen, including moving ones, popups right after the game starts, and screens the script keeps getting stuck on.\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b30",
+  "Date": "2026-11-18 07:35:06",
+  "Hash": "d7c52b035e3fb7896a870016940c38c941af8ff2014703500f11b7a1f7996e88",
+  "File": "TsumTsum-Beta-6.0b30.zip",
+  "Message": "**Additions**\n*Skills*\n- Sorcerer Mickey+ skill added (Beta): while his hats last, each magic bubble comes from the longest chain and is dragged apart, big ones first, so the blasts cover as much of the board as possible.\n*Tsums*\n- JP-only tsums have English names (Outdoor Mickey, Jim Hawkins, Spider-Man and the rest), shown in GAP Companion beside the Japanese one, and on the international game until it names them.\n*Settings*\n- Picking a skill sets Record round stats: off for an Alpha skill, on for any other.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b30",
+      "Date": "2026-11-18 07:35:06",
+      "Hash": "d7c52b035e3fb7896a870016940c38c941af8ff2014703500f11b7a1f7996e88",
+      "File": "TsumTsum-Beta-6.0b30.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b29",
       "Date": "2026-11-17 18:58:32",
@@ -34,13 +41,6 @@
       "Date": "2026-11-10 23:44:07",
       "Hash": "0da9948a6be0a510266d1cb4421e0151b4399d2cd186282ae1b0e70ed501fbec",
       "File": "TsumTsum-Beta-6.0b26.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b25",
-      "Date": "2026-11-08 19:19:08",
-      "Hash": "296ccf390aba643100e912f8e7804525a133da23663d6da473bd2d55a4ca8746",
-      "File": "TsumTsum-Beta-6.0b25.zip",
       "MinHost": "4.0"
     }
   ]

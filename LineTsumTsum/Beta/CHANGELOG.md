@@ -3,6 +3,16 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b30 - 2026-11-18
+
+**Additions**
+*Skills*
+- Sorcerer Mickey+ skill added (Beta): while his hats last, each magic bubble comes from the longest chain and is dragged apart, big ones first, so the blasts cover as much of the board as possible.
+*Tsums*
+- JP-only tsums have English names (Outdoor Mickey, Jim Hawkins, Spider-Man and the rest), shown in GAP Companion beside the Japanese one, and on the international game until it names them.
+*Settings*
+- Picking a skill sets Record round stats: off for an Alpha skill, on for any other.
+
 ## 6.0b29 - 2026-11-17
 
 **Additions**
