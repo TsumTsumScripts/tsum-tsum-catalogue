@@ -3,6 +3,12 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b31 - 2026-11-19
+
+**Additions**
+*Skills*
+- Sorcerer Mickey+ skill improved: drop spots set per skill level, and while the hats are up chains keep to Maximum Chain Number and wait for the board to settle, for more big bubbles.
+
 ## 6.0b30 - 2026-11-18
 
 **Additions**

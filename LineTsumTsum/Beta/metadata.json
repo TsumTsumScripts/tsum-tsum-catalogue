@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b30",
-  "Date": "2026-11-18 07:35:06",
-  "Hash": "d7c52b035e3fb7896a870016940c38c941af8ff2014703500f11b7a1f7996e88",
-  "File": "TsumTsum-Beta-6.0b30.zip",
-  "Message": "**Additions**\n*Skills*\n- Sorcerer Mickey+ skill added (Beta): while his hats last, each magic bubble comes from the longest chain and is dragged apart, big ones first, so the blasts cover as much of the board as possible.\n*Tsums*\n- JP-only tsums have English names (Outdoor Mickey, Jim Hawkins, Spider-Man and the rest), shown in GAP Companion beside the Japanese one, and on the international game until it names them.\n*Settings*\n- Picking a skill sets Record round stats: off for an Alpha skill, on for any other.\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b31",
+  "Date": "2026-11-19 02:30:14",
+  "Hash": "c1e3cf32e1155f1234a208bc2a49a35f065dabdcbbb5f74f0cf2f5a7f0ae4968",
+  "File": "TsumTsum-Beta-6.0b31.zip",
+  "Message": "**Additions**\n*Skills*\n- Sorcerer Mickey+ skill improved: drop spots set per skill level, and while the hats are up chains keep to Maximum Chain Number and wait for the board to settle, for more big bubbles.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b31",
+      "Date": "2026-11-19 02:30:14",
+      "Hash": "c1e3cf32e1155f1234a208bc2a49a35f065dabdcbbb5f74f0cf2f5a7f0ae4968",
+      "File": "TsumTsum-Beta-6.0b31.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b30",
       "Date": "2026-11-18 07:35:06",
@@ -34,13 +41,6 @@
       "Date": "2026-11-12 09:08:59",
       "Hash": "55e264bdf3428ca74cfff56d7490e7ec259f1d20841846ce54f8ee643dda9392",
       "File": "TsumTsum-Beta-6.0b27.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b26",
-      "Date": "2026-11-10 23:44:07",
-      "Hash": "0da9948a6be0a510266d1cb4421e0151b4399d2cd186282ae1b0e70ed501fbec",
-      "File": "TsumTsum-Beta-6.0b26.zip",
       "MinHost": "4.0"
     }
   ]
