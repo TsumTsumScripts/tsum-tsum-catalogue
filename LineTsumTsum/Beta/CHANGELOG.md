@@ -3,6 +3,12 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b32 - 2026-11-20
+
+**Additions**
+*Chores*
+- Buy 5▸4 Tickets added (Beta): Now buys as many 5▸4 Ticket ×1 as you set from the Item Store with Medals, finding it wherever it is in the list.
+
 ## 6.0b31 - 2026-11-19
 
 **Additions**

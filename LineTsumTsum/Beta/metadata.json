@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b31",
-  "Date": "2026-11-19 02:30:14",
-  "Hash": "c1e3cf32e1155f1234a208bc2a49a35f065dabdcbbb5f74f0cf2f5a7f0ae4968",
-  "File": "TsumTsum-Beta-6.0b31.zip",
-  "Message": "**Additions**\n*Skills*\n- Sorcerer Mickey+ skill improved: drop spots set per skill level, and while the hats are up chains keep to Maximum Chain Number and wait for the board to settle, for more big bubbles.\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b32",
+  "Date": "2026-11-20 07:49:18",
+  "Hash": "40820b8d5232cf0f7370746f4939bf5ff327d9d94ab769b50af028d652938f87",
+  "File": "TsumTsum-Beta-6.0b32.zip",
+  "Message": "**Additions**\n*Chores*\n- Buy 5▸4 Tickets added (Beta): Now buys as many 5▸4 Ticket ×1 as you set from the Item Store with Medals, finding it wherever it is in the list.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b32",
+      "Date": "2026-11-20 07:49:18",
+      "Hash": "40820b8d5232cf0f7370746f4939bf5ff327d9d94ab769b50af028d652938f87",
+      "File": "TsumTsum-Beta-6.0b32.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b31",
       "Date": "2026-11-19 02:30:14",
@@ -34,13 +41,6 @@
       "Date": "2026-11-15 04:35:22",
       "Hash": "bfcb533d7c9c529a6313ae16670dc851bf5d6628ea4902d92f86e740f9c5a88d",
       "File": "TsumTsum-Beta-6.0b28.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b27",
-      "Date": "2026-11-12 09:08:59",
-      "Hash": "55e264bdf3428ca74cfff56d7490e7ec259f1d20841846ce54f8ee643dda9392",
-      "File": "TsumTsum-Beta-6.0b27.zip",
       "MinHost": "4.0"
     }
   ]
