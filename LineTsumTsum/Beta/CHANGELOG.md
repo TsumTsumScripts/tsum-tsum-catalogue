@@ -3,6 +3,12 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b33 - 2026-11-21
+
+**Additions**
+*Skills*
+- Coronation Day Elsa now plays as Burst, earning about 2.6x the coins of her old skill.
+
 ## 6.0b32 - 2026-11-20
 
 **Additions**

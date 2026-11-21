@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b32",
-  "Date": "2026-11-20 07:49:18",
-  "Hash": "40820b8d5232cf0f7370746f4939bf5ff327d9d94ab769b50af028d652938f87",
-  "File": "TsumTsum-Beta-6.0b32.zip",
-  "Message": "**Additions**\n*Chores*\n- Buy 5▸4 Tickets added (Beta): Now buys as many 5▸4 Ticket ×1 as you set from the Item Store with Medals, finding it wherever it is in the list.\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b33",
+  "Date": "2026-11-21 23:46:58",
+  "Hash": "4c76e77e2ded246680f8fe5a31791f0a9e37d52519c5da7d560111cdbea8a7cc",
+  "File": "TsumTsum-Beta-6.0b33.zip",
+  "Message": "**Additions**\n*Skills*\n- Coronation Day Elsa now plays as Burst, earning about 2.6x the coins of her old skill.\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b33",
+      "Date": "2026-11-21 23:46:58",
+      "Hash": "4c76e77e2ded246680f8fe5a31791f0a9e37d52519c5da7d560111cdbea8a7cc",
+      "File": "TsumTsum-Beta-6.0b33.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b32",
       "Date": "2026-11-20 07:49:18",
@@ -34,13 +41,6 @@
       "Date": "2026-11-17 18:58:32",
       "Hash": "9afdc4ca8bd5525c78c6adcf4f13c3d9499c81559af4ff282cf5977af104eb44",
       "File": "TsumTsum-Beta-6.0b29.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b28",
-      "Date": "2026-11-15 04:35:22",
-      "Hash": "bfcb533d7c9c529a6313ae16670dc851bf5d6628ea4902d92f86e740f9c5a88d",
-      "File": "TsumTsum-Beta-6.0b28.zip",
       "MinHost": "4.0"
     }
   ]
