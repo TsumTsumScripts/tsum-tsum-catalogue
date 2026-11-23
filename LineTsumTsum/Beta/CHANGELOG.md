@@ -3,14 +3,6 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
-## 6.0b34 - 2026-11-23
-
-**Additions**
-*Stats*
-- Which tsum? on the Quick Bar: when the selected tsum is not recognised, pick it from the closest matches and its rounds are recorded under it.
-- An unrecognised tsum's pre-round screen is saved once, so its rounds can be filled in later.
-- Stats screenshots are zipped into one file per day (GAP 4.15 or later).
-
 ## 6.0b33 - 2026-11-21
 
 **Additions**
