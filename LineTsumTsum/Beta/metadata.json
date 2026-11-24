@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b33",
-  "Date": "2026-11-21 23:46:58",
-  "Hash": "4c76e77e2ded246680f8fe5a31791f0a9e37d52519c5da7d560111cdbea8a7cc",
-  "File": "TsumTsum-Beta-6.0b33.zip",
-  "Message": "**Additions**\n*Skills*\n- Coronation Day Elsa now plays as Burst, earning about 2.6x the coins of her old skill.\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b34",
+  "Date": "2026-11-24 00:25:01",
+  "Hash": "712aa905fffe9010c8b576f050d2cf120791abc63895c81cf34207fb326c3891",
+  "File": "TsumTsum-Beta-6.0b34.zip",
+  "Message": "**Additions**\n*Stats*\n- Which tsum? on the Quick Bar: when the selected tsum is not recognised, pick it from the closest matches and its rounds are recorded under it.\n- An unrecognised tsum's pre-round screen is saved once, so its rounds can be filled in later.\n- Stats screenshots are zipped into one file per day (GAP 4.15 or later).\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b34",
+      "Date": "2026-11-24 00:25:01",
+      "Hash": "712aa905fffe9010c8b576f050d2cf120791abc63895c81cf34207fb326c3891",
+      "File": "TsumTsum-Beta-6.0b34.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b33",
       "Date": "2026-11-21 23:46:58",
@@ -34,13 +41,6 @@
       "Date": "2026-11-18 07:35:06",
       "Hash": "d7c52b035e3fb7896a870016940c38c941af8ff2014703500f11b7a1f7996e88",
       "File": "TsumTsum-Beta-6.0b30.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b29",
-      "Date": "2026-11-17 18:58:32",
-      "Hash": "9afdc4ca8bd5525c78c6adcf4f13c3d9499c81559af4ff282cf5977af104eb44",
-      "File": "TsumTsum-Beta-6.0b29.zip",
       "MinHost": "4.0"
     }
   ]
