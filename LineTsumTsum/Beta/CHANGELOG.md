@@ -3,6 +3,15 @@
 What shipped in each release, newest first. 
 _Testing build -- please report anything odd._
 
+## 6.0b35 - 2026-11-26
+
+**Additions**
+*Tsums*
+- The four newest JP tsums are recognised before a round and in the Tsum List: Aladdin+, Alice & Cheshire Cat, Doctor Doom and Lady (Charm) (merged up from 5.8).
+
+**Fixes**
+- Buzz+, Gary, Judy & Nick, Daruma Minnie and Woody+ show their English names on the international game (merged up from 5.8).
+
 ## 6.0b34 - 2026-11-24
 
 **Additions**
