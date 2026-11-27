@@ -1,6 +1,20 @@
 # Tsum Tsum
 
 What shipped in each release, newest first. 
+## 5.8 - 2026-11-27
+
+**Additions**
+*Tsums*
+- JP-only tsums have English names (Outdoor Mickey, Jim Hawkins, Spider-Man and the rest), shown on the international game until it names them.
+- The four newest JP tsums are recognised before a round and in the Tsum List: Aladdin+, Alice & Cheshire Cat, Doctor Doom and Lady (Charm).
+
+**Fixes**
+- Buzz+, Gary, Judy & Nick, Daruma Minnie and Woody+ show their English names on the international game.
+- Pressing Play twice no longer starts the script twice, which had two copies tapping the board at once so no chains were made.
+- The Tsum List now names the five newest JP tsums (Lorcana Belle, Cruella, Donald and Woody, and Sorcerer's Apprentice Mickey+) instead of leaving them blank.
+- Mocha, Pudding and Souffle are no longer listed as international tsums; they are JP-only.
+- The script starts again after the device loses power mid-run; it had stopped at "Screen offset and size" on every start.
+
 ## 5.7 - 2026-10-31
 
 **Additions**

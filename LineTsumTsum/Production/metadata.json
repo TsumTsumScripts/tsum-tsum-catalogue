@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum",
-  "Version": "5.7",
-  "Date": "2026-10-31 16:15:58",
-  "Hash": "7b59dd58c7a1e6c6bf1ff98b52e6516e33e7fdcd1c5c4e31c0dbd48eb1e2ac22",
-  "File": "TsumTsum-5.7.zip",
-  "Message": "**Additions**\n*Tsums*\n- The five newest JP tsums are recognised before a round: Lorcana Belle, Cruella, Donald and Woody, and Sorcerer's Apprentice Mickey+.\n\n**Fixes**\n- Magic Wand Clarice, Daisy and Minnie, Mabel+ and Mysterious Knight Mickey show their English names on the international game instead of their Japanese ones.",
+  "Version": "5.8",
+  "Date": "2026-11-27 22:11:35",
+  "Hash": "1b29a632fe75eb3cca25b5dec86810f66588c1a580863ec6a2b3f0aff522b998",
+  "File": "TsumTsum-5.8.zip",
+  "Message": "**Additions**\n*Tsums*\n- JP-only tsums have English names (Outdoor Mickey, Jim Hawkins, Spider-Man and the rest), shown on the international game until it names them.\n- The four newest JP tsums are recognised before a round and in the Tsum List: Aladdin+, Alice & Cheshire Cat, Doctor Doom and Lady (Charm).\n\n**Fixes**\n- Buzz+, Gary, Judy & Nick, Daruma Minnie and Woody+ show their English names on the international game.\n- Pressing Play twice no longer starts the script twice, which had two copies tapping the board at once so no chains were made.\n- The Tsum List now names the five newest JP tsums (Lorcana Belle, Cruella, Donald and Woody, and Sorcerer's Apprentice Mickey+) instead of leaving them blank.\n- Mocha, Pudding and Souffle are no longer listed as international tsums; they are JP-only.\n- The script starts again after the device loses power mid-run; it had stopped at \"Screen offset and size\" on every start.",
   "MinHost": "3.3",
   "Versions": [
+    {
+      "Version": "5.8",
+      "Date": "2026-11-27 22:11:35",
+      "Hash": "1b29a632fe75eb3cca25b5dec86810f66588c1a580863ec6a2b3f0aff522b998",
+      "File": "TsumTsum-5.8.zip",
+      "MinHost": "3.3"
+    },
     {
       "Version": "5.7",
       "Date": "2026-10-31 16:15:58",
@@ -34,13 +41,6 @@
       "Date": "2026-10-20 06:54:12",
       "Hash": "1e58a7a204561893c1ec6a24dd5a5d0041054ccb4d92e3572abfd0c2a048d114",
       "File": "TsumTsum-5.4.zip",
-      "MinHost": "3.3"
-    },
-    {
-      "Version": "5.3",
-      "Date": "2026-10-17 20:14:51",
-      "Hash": "af4aeac844ad072c18d5f551e5faedd3a2d7a1a61139cfe374dfe69b55993c1c",
-      "File": "TsumTsum-5.3.zip",
       "MinHost": "3.3"
     }
   ]
