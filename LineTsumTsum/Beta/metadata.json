@@ -1,13 +1,20 @@
 {
   "Game": "Tsum Tsum",
   "Name": "Tsum Tsum - BETA",
-  "Version": "6.0b35",
-  "Date": "2026-11-26 18:54:45",
-  "Hash": "e8c2e3880f0a003d1e3e045a67b3f56ec580f6566d4ad9c464680293f7c41038",
-  "File": "TsumTsum-Beta-6.0b35.zip",
-  "Message": "**Additions**\n*Tsums*\n- The four newest JP tsums are recognised before a round and in the Tsum List: Aladdin+, Alice & Cheshire Cat, Doctor Doom and Lady (Charm) (merged up from 5.8).\n\n**Fixes**\n- Buzz+, Gary, Judy & Nick, Daruma Minnie and Woody+ show their English names on the international game (merged up from 5.8).\n\n_Testing build -- please report anything odd._",
+  "Version": "6.0b36",
+  "Date": "2026-11-27 22:13:07",
+  "Hash": "62c7704080de80197afc7ca7736bf7802e4bc3839a09b4f9c7d4825999fb6167",
+  "File": "TsumTsum-Beta-6.0b36.zip",
+  "Message": "**Fixes**\n- The script starts again after the device loses power mid-run; it had stopped at \"Screen offset and size\" on every start (merged up from 5.8).\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
+    {
+      "Version": "6.0b36",
+      "Date": "2026-11-27 22:13:07",
+      "Hash": "62c7704080de80197afc7ca7736bf7802e4bc3839a09b4f9c7d4825999fb6167",
+      "File": "TsumTsum-Beta-6.0b36.zip",
+      "MinHost": "4.0"
+    },
     {
       "Version": "6.0b35",
       "Date": "2026-11-26 18:54:45",
@@ -34,13 +41,6 @@
       "Date": "2026-11-20 07:49:18",
       "Hash": "40820b8d5232cf0f7370746f4939bf5ff327d9d94ab769b50af028d652938f87",
       "File": "TsumTsum-Beta-6.0b32.zip",
-      "MinHost": "4.0"
-    },
-    {
-      "Version": "6.0b31",
-      "Date": "2026-11-19 02:30:14",
-      "Hash": "c1e3cf32e1155f1234a208bc2a49a35f065dabdcbbb5f74f0cf2f5a7f0ae4968",
-      "File": "TsumTsum-Beta-6.0b31.zip",
       "MinHost": "4.0"
     }
   ]
