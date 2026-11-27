@@ -13,7 +13,7 @@ What shipped in each release, newest first.
 - Pressing Play twice no longer starts the script twice, which had two copies tapping the board at once so no chains were made.
 - The Tsum List now names the five newest JP tsums (Lorcana Belle, Cruella, Donald and Woody, and Sorcerer's Apprentice Mickey+) instead of leaving them blank.
 - Mocha, Pudding and Souffle are no longer listed as international tsums; they are JP-only.
-- The script starts again after the device loses power mid-run; it had stopped at "Screen offset and size" on every start.
+- If a sudden device shutdown corrupts the saved heart totals, the script now resets them instead of stopping at "Screen offset and size" on every start.
 
 ## 5.7 - 2026-10-31
 

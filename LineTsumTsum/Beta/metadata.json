@@ -5,7 +5,7 @@
   "Date": "2026-11-27 22:13:07",
   "Hash": "62c7704080de80197afc7ca7736bf7802e4bc3839a09b4f9c7d4825999fb6167",
   "File": "TsumTsum-Beta-6.0b36.zip",
-  "Message": "**Fixes**\n- The script starts again after the device loses power mid-run; it had stopped at \"Screen offset and size\" on every start (merged up from 5.8).\n\n_Testing build -- please report anything odd._",
+  "Message": "**Fixes**\n- If a sudden device shutdown corrupts the saved heart totals, the script now resets them instead of stopping at \"Screen offset and size\" on every start (merged up from 5.8).\n\n_Testing build -- please report anything odd._",
   "MinHost": "4.0",
   "Versions": [
     {

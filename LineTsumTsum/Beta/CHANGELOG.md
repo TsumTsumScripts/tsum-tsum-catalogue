@@ -6,7 +6,7 @@ _Testing build -- please report anything odd._
 ## 6.0b36 - 2026-11-27
 
 **Fixes**
-- The script starts again after the device loses power mid-run; it had stopped at "Screen offset and size" on every start (merged up from 5.8).
+- If a sudden device shutdown corrupts the saved heart totals, the script now resets them instead of stopping at "Screen offset and size" on every start (merged up from 5.8).
 
 ## 6.0b35 - 2026-11-26
 

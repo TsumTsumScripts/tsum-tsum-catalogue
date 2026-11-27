@@ -1,0 +1,43 @@
+name: Re-announce on Discord
+# Posts release announcements again without publishing anything: builds the
+# catalogue at `ref` and at `since`, and announces each script whose Version
+# differs between the two (notify-discord.sh). For an announcement that was
+# deleted, or whose notes were corrected after the release.
+run-name: Re-announce ${{ inputs.ref }} since ${{ inputs.since }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: Commit whose notes to announce (usually the live one)
+        required: true
+      since:
+        description: Commit to compare with; every script whose Version differs is announced
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
+          fetch-depth: 0
+
+      - name: Build both catalogues
+        env:
+          SINCE: ${{ inputs.since }}
+        run: |
+          bash build-catalogue.sh
+          git worktree add --detach ../since "$SINCE"
+          (cd ../since && bash build-catalogue.sh)
+          cp ../since/catalogue.json since-catalogue.json
+
+      - name: Announce on Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: bash notify-discord.sh since-catalogue.json catalogue.json "https://tsumtsumscripts.github.io/tsum-tsum-catalogue/"

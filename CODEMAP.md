@@ -15,7 +15,9 @@ tsum-tsum-catalogue/
 ├── build-catalogue.sh/.ps1  folds every metadata.json into catalogue.json
 ├── notify-discord.sh        posts each script whose Version changed to Discord
 ├── catalogue.json           generated, gitignored (a local preview build)
-└── .github/workflows/build-catalogue.yml  builds and publishes catalogue.json to Pages
+└── .github/workflows/
+    ├── build-catalogue.yml  builds and publishes catalogue.json to Pages
+    └── reannounce.yml       posts announcements again, publishing nothing
 ```
 
 ## Which document answers it
@@ -34,6 +36,7 @@ tsum-tsum-catalogue/
 | The live catalogue the GAP app reads (a built-in library source) | `https://tsumtsumscripts.github.io/tsum-tsum-catalogue/catalogue.json`, plus `deploy.json` (`ref`, `deploy_id`, `at`) the Devkit reads back |
 | Discord announcement (diff of the live catalogue against the new one; secret `DISCORD_WEBHOOK_URL`, none = skipped) | `notify-discord.sh` |
 | The workflow: on a push to `main` touching a `metadata.json`, the build or notify scripts or itself; `workflow_dispatch` inputs `ref` (commit to publish), `announce` (Discord, default on), `deploy_id` (set by the Devkit) | `.github/workflows/build-catalogue.yml` |
+| Re-announcing a release (deleted post, corrected notes): `workflow_dispatch` inputs `ref` (notes to post) and `since` (an older commit; every script whose Version differs from it is posted). Builds both catalogues, deploys nothing | `.github/workflows/reannounce.yml` |
 | Who writes here and publishes | the GAP Devkit: a script release writes a channel folder, then the workflow is run with a pinned `ref`. See `../tools/DEPLOYMENTS.md` |
 
 ## Commands
